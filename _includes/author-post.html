@@ -1,0 +1,18 @@
+<div class="col-12 col-lg-6">
+  <div class="author-post-card">
+    <div class="my-2 author-post-image-container-stretcher">
+      <div class="author-post-image-container">
+	<a href="{{ include.url }}">
+	  <img class="author-post-image" src="{{ include.image_url }}">
+	</a>
+      </div>
+    </div>
+    
+    <div class="author-post-text-container bg-blue text-secondary p-2 my-2">
+      <a href="{{ include.url }}" class="darkgray">
+	<h5 class="author-post-title">{{ include.title }}</h5>
+      </a>
+      <p class="underauthor"><small>{{ include.subtitle }}</small></p>
+    </div>
+  </div>
+</div>

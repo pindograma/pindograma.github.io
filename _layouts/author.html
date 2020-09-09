@@ -1,0 +1,72 @@
+---
+layout: default
+---
+
+<section class="author">
+  <div class="container-fluid">
+    <div class="row d-block d-md-none">
+      <div class="col-12 mx-0 text-center" style="margin-bottom: -75px;">
+        <img src="{{ page.image_url }}" alt="foto do autor" class="rounded-circle author-img m-0">
+      </div>
+      <div class="col-12 mx-0 px-0">
+        <div class="card bg-blue text-center m-0 blue pt-5" style="min-height:150px;width: 100%;border-radius: 1px;border:none;z-index:-1;">
+          <p class="pt-5 mobile-author-name"><small><strong>{{ page.name }}</strong></small></p>
+          <p class="mobile-author-name"><small>{{ page.bio }}.</small></p>
+        </div>
+        <div class="col-12 blue text-center">
+          <i class="fab fa-twitter fa-2x m-2"></i>
+          <i class="fas fa-envelope fa-2x m-2"></i>
+          <i class="fab fa-linkedin-in fa-2x m-2"></i>
+        </div>
+      </div>
+    </div>
+
+    <div class="row px-sm-5">
+      <div class="d-none d-md-block card card-blue-author"></div>
+      <div class="col-1"></div>
+
+      <div class="col-12 col-md-6 p-md-4 bg-white posts-author">
+        <div class="row">
+          {% assign filtered_posts = site.posts | where: 'author', page.short_name %}
+          {% for post in filtered_posts %}
+            {% include author-post.html url=post.url image_url=post.image_url title=post.title subtitle=post.subtitle %}
+          {% endfor %}
+        </div>
+      </div>
+
+      <div class="col-12 col-md-4 about-author d-none d-md-block">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2 class="text-white">mais do autor</h2>
+            <div class="card card-body bg-yellow author-name underauthor">
+              <h5><b>{{ page.name }}</b></h5>
+              <hr/>
+              <p>{{ page.bio }}.</p>
+            </div>
+          </div>
+          <img src="{{ page.image_url }}" alt="foto do autor" class="rounded-circle author-img">
+          <div class="circle-green"></div>
+          <div class="circle-green" style="background-color: #6b82a0;width: 35px;height: 35px;margin: -160px 65px;"></div>
+        </div>
+        
+        <hr class="separator"/>
+        
+        <div class="row newsletter-author my-3">
+          <div class="col-12">
+            <div class="card" style="max-width: 300px;">
+              <div class="card-body">
+                <p class="title">newsletter</p>
+                <p class="sign-up">Inscreva-se...</p>
+                <p class="text-secondary small"> Para receber notificações no seu email sempre que novas notícias estiverem disponíveis!</p>
+                <p class="text-secondary mt-3 pt-3">seu email:</p>
+                <p class="bg-secondary py-4 text-white"></p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div style="clear:both"></div>
+</section>

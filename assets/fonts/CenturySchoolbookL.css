@@ -1,0 +1,40 @@
+/*
+ * This file is taken from
+ * https://github.com/TimothyGu/Century-Schoolbook-L.
+ */
+
+@font-face {
+	font-family: 'Century Schoolbook L';
+	src: url('../fonts/CenturySchL-Bold.eot');
+	src: url('../fonts/CenturySchL-Bold.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/CenturySchL-Bold.woff2') format('woff2'),
+	     url('../fonts/CenturySchL-Bold.woff') format('woff'),
+	     url('../fonts/CenturySchL-Bold.ttf') format('truetype'),
+	     url('../fonts/CenturySchL-Bold.svg#century_schoolbook_lbold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Century Schoolbook L';
+	src: url('../fonts/CenturySchL-Ital.eot');
+	src: url('../fonts/CenturySchL-Ital.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/CenturySchL-Ital.woff2') format('woff2'),
+	     url('../fonts/CenturySchL-Ital.woff') format('woff'),
+	     url('../fonts/CenturySchL-Ital.ttf') format('truetype'),
+	     url('../fonts/CenturySchL-Ital.svg#century_schoolbook_litalic') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Century Schoolbook L';
+	src: url('../fonts/CenturySchL-Roma.eot');
+	src: url('../fonts/CenturySchL-Roma.eot?#iefix') format('embedded-opentype'),
+	     url('../fonts/CenturySchL-Roma.woff2') format('woff2'),
+	     url('../fonts/CenturySchL-Roma.woff') format('woff'),
+	     url('../fonts/CenturySchL-Roma.ttf') format('truetype'),
+	     url('../fonts/CenturySchL-Roma.svg#century_schoolbook_lroma') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}

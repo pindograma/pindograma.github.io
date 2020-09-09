@@ -1,0 +1,194 @@
+---
+layout: default
+---
+
+{% assign main_post = site.posts | where: 'refid', site.data.metadata.main_post | first %}
+{% assign secondary_post = site.posts | where: 'refid', site.data.metadata.secondary_post | first %}
+
+{% assign main_post_author = site.authors | where: 'short_name', main_post.author | first %}
+{% assign secondary_post_author = site.authors | where: 'short_name', secondary_post.author | first %}
+
+<section>
+  <div class="pindograma-container p-0">
+    <div class="row mb-5 mx-0">
+      <div class="col-12 col-lg-6 col-xl-8 mx-0 mx-sm-2 mx-md-0 p-0 px-md-5">
+        <!-- MD/XL Main Articles -->
+        <div class="d-none d-sm-none d-md-block d-lg-none d-xl-block new-pubs">
+          <a class="row mb-5" style="display: flex; text-decoration: none;" href="{{ main_post.url }}">
+            <div class="col-9 px-0 first-headline-image-container">
+              <img class="headline-image" src="{{ main_post.image_url }}" />
+            </div>
+
+            <div class="col-3 p-0 main-headline-container">
+              <div class="card">
+                <h4 class="bigtitle">{{ main_post.title }}</h4>
+                <p class="undertitle small py-4">por <span class="author bg-orange text-white">{{ main_post_author.name }}</span></p>
+                <p class="undertitle small">{{ main_post.subtitle }}</p>
+              </div>
+              <div class="rounded-circle bg-yellow" style="width: 200px;height: 200px;margin: -135px -58px;"></div>
+              <div class="rounded-circle bg-orange" style="width: 50px;height: 50px;margin: 86px 0px 0px 150px;"></div>
+            </div>
+          </a>
+
+          <a style="display: flex; text-decoration: none;" href="{{ secondary_post.url }}" class="row mb-5 second-headline-parent-container">
+            <div class="rounded-circle bg-green" style="position: absolute; width: 200px; height: 200px; z-index: 500; top: 200px; left: 100px;"></div>
+            <div class="rounded-circle bg-darkblue" style="position: absolute; width: 50px; height: 50px; z-index: 500; top: 383px; left: 50px;"></div>
+            
+            <div class="p-0 second-headline-container">
+              <div class="card">
+                <h4 class="bigtitle">{{ secondary_post.title }}</h4>
+                <p class="undertitle small py-4">por <span class="author bg-green text-white">{{ secondary_post_author.name }}</span></p>
+                <p class="undertitle small">{{ secondary_post.subtitle }}</p>
+              </div>
+            </div>
+            
+            <div class="px-0 second-headline-image-container">
+              <img class="headline-image" src="{{ secondary_post.image_url }}" />
+            </div>
+          </a>
+        </div>
+
+        <!-- XS/SM/LG Main Articles -->
+        <div class="d-block d-sm-block d-md-none d-lg-block d-xl-none index-mobile">
+          <a style="display: flex; text-decoration: none;" href="{{ main_post.url }}" class="row mx-0">
+            <div class="card-new">
+              <img src="{{ main_post.image_url }}" class="main-article-image-small">
+            </div>
+            <h5 class="darkgray px-4 mobile-article-title bigtitle">{{ main_post.title }}</h5>
+            <p class="blue px-4 underauthor">por <span class="text-white bg-yellow mr-5 px-2">{{ main_post_author.name }}</span></p>
+            <p class="undertitle small darkgray px-4">{{ main_post.subtitle }}</p>
+          </a>
+
+          <a style="display: flex; text-decoration: none;" href="{{ secondary_post.url }}" class="row mx-0">
+            <div class="col-9"></div>
+            <div class="col-3 more-highlights px-0">
+              <hr/>
+            </div>
+            <div class="card-more-highlights">
+              <img src="{{ secondary_post.image_url }}" class="main-article-image-small">
+            </div>
+            <h5 class="darkgray px-4 mobile-article-title bigtitle">{{ secondary_post.title }}</h5>
+            <p class="blue px-4 underauthor">por <span class="text-white bg-orange mr-5 px-2">{{ secondary_post_author.name }}</span></p>
+            <p class="undertitle small darkgray px-4">{{ secondary_post.subtitle }}</p>
+          </a>
+        </div>
+
+        <div class="d-block d-lg-none"><hr class="bg-orange" style="height: 1px;"></div>
+      </div>
+
+      <div class="col-12 col-lg-6 col-xl-4 mx-0 mx-sm-2 mx-md-0 p-0 px-md-5">
+        <!-- Desktop Graphics -->
+        <div class="d-none d-md-block">
+          <div class="col-12 col-lg-5 mx-2 fixed-cards">
+            <div class="row mx-2 pt-4 graphics">
+              <div class="col-12 card m-0 p-0">
+                <div class="card-body p-0">
+                  <iframe src="https://blank.org"></iframe>
+                </div>
+              </div>
+
+              <div class="col-12 card m-0 p-0">
+                <div class="card-body p-0">
+                  <iframe src="https://blank.org"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Mobile Graphics -->
+        <div class="d-block d-md-none">
+          <div class="row w-100 graphics">
+            <div class="col-12 card m-0 p-0">
+              <div class="card-body p-0">
+                <iframe src="https://blank.org"></iframe>
+              </div>
+            </div>
+
+            <div class="col-12 card m-0 p-0">
+              <div class="card-body p-0">
+                <iframe src="https://blank.org"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Desktop Ad -->
+    <div class="row add-card mx-0 d-none d-md-flex">
+      <div class="col-2 px-0 pt-3">
+        <hr/>
+      </div>
+      <div class="col-8 px-0">
+        <div class="card p-5 undertitle ad-container">
+          <p class="m-0">
+            Anuncie no <i>Pindograma</i>! Entre em contato com anuncios@pindograma.com.br.
+          </p>
+        </div>
+      </div>
+      <div class="col-2 px-0 pt-3">
+        <hr/>
+      </div>
+    </div>
+      
+    <!-- Mobile Newsletter -->
+    <div class="row my-2 mx-0 p-0 d-block d-md-none">
+      <div class="col p-0">
+        {% include newsletter-mobile.html %}
+      </div>
+    </div>
+      
+    <!-- Mobile Posts -->
+    <div class="row mt-2 mx-0 p-0 d-block d-sm-none index-mobile">
+      <h1 class="title-read-too blue pl-5">recentes</h1>
+      <div class="read-too">
+        {% for post in site.posts limit:12 %}
+          {% assign mod = forloop.index | modulo: 2 %}
+          {% if mod == 0 %}
+            {% include related-post-mobile.html title=post.title author=post.author url=post.url image_url=post.image_url date=post.date %}
+          {% else %}
+            {% include related-post-mobile-white.html title=post.title author=post.author url=post.url image_url=post.image_url date=post.date %}
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+
+      <!-- Desktop Posts -->
+    <div class="row my-3 mx-0 d-none d-sm-flex">
+      <div class="col-12 col-lg-9 old-pubs">
+        <div class="yellow bg-white old-pubs-tag d-none d-md-block">
+          <div class="border-yellow">
+            <p class="m-0 px-2">recentes</p>
+          </div>
+        </div>
+        <h1 class="d-sm-block d-md-none index-mobile title-read-too blue mb-0" style="text-decoration: underline;">recentes</h1>
+        {% for post in site.posts limit:12 %}
+          {% assign mod = forloop.index | modulo: 2 %}
+          {% if mod == 0 %}
+            {% include post-1.html title=post.title author=post.author url=post.url image_url=post.image_url date=post.date %}
+          {% else %}
+            {% include post-2.html title=post.title author=post.author url=post.url image_url=post.image_url date=post.date %}
+          {% endif %}
+        {% endfor %}
+      </div>
+    
+      <!-- Desktop Newsletter -->
+      <div class="col col-lg-3 d-none d-md-block">
+        <div class="newsletter my-3">
+          <div class="card">
+            <div class="card-body">
+              <p class="title">newsletter</p>
+              <p class="sign-up">Inscreva-se...</p>
+              <p class="text-secondary small"> Para receber notificações no seu email sempre que novas notícias estiverem disponíveis!</p>
+              <p class="title mt-5 pt-3">seu email:</p>
+              <p class="bg-green py-4 text-white"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div style="clear: both;"></div>
+</section>

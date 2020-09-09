@@ -1,0 +1,22 @@
+title: Pindograma
+email: redacao@pindograma.com.br
+description: Jornalismo de dados sem papo furado.
+baseurl: ""
+url: "https://pindograma.com.br"
+twitter_username: pindograma
+github_username: pindograma
+
+theme: minima
+plugins:
+  - jekyll-feed
+
+collections:
+  authors:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "authors"
+    values:
+      layout: "author"
