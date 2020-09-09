@@ -16,7 +16,7 @@ layout: default
         <div class="d-none d-sm-none d-md-block d-lg-none d-xl-block new-pubs">
           <a class="row mb-5" style="display: flex; text-decoration: none;" href="{{ main_post.url }}">
             <div class="col-9 px-0 first-headline-image-container">
-              <img class="headline-image" src="{{ main_post.image_url }}" />
+              <img class="headline-image" src="{{ main_post.image }}" />
             </div>
 
             <div class="col-3 p-0 main-headline-container">
@@ -43,7 +43,7 @@ layout: default
             </div>
             
             <div class="px-0 second-headline-image-container">
-              <img class="headline-image" src="{{ secondary_post.image_url }}" />
+              <img class="headline-image" src="{{ secondary_post.image }}" />
             </div>
           </a>
         </div>
@@ -52,7 +52,7 @@ layout: default
         <div class="d-block d-sm-block d-md-none d-lg-block d-xl-none index-mobile">
           <a style="display: flex; text-decoration: none;" href="{{ main_post.url }}" class="row mx-0">
             <div class="card-new">
-              <img src="{{ main_post.image_url }}" class="main-article-image-small">
+              <img src="{{ main_post.image }}" class="main-article-image-small">
             </div>
             <h5 class="darkgray px-4 mobile-article-title bigtitle">{{ main_post.title }}</h5>
             <p class="blue px-4 underauthor">por <span class="text-white bg-yellow mr-5 px-2">{{ main_post_author.name }}</span></p>
@@ -65,7 +65,7 @@ layout: default
               <hr/>
             </div>
             <div class="card-more-highlights">
-              <img src="{{ secondary_post.image_url }}" class="main-article-image-small">
+              <img src="{{ secondary_post.image }}" class="main-article-image-small">
             </div>
             <h5 class="darkgray px-4 mobile-article-title bigtitle">{{ secondary_post.title }}</h5>
             <p class="blue px-4 underauthor">por <span class="text-white bg-orange mr-5 px-2">{{ secondary_post_author.name }}</span></p>
@@ -146,9 +146,9 @@ layout: default
         {% for post in site.posts limit:12 %}
           {% assign mod = forloop.index | modulo: 2 %}
           {% if mod == 0 %}
-            {% include related-post-mobile.html title=post.title author=post.author url=post.url image_url=post.image_url date=post.date %}
+            {% include related-post-mobile.html title=post.title author=post.author url=post.url image=post.image date=post.date %}
           {% else %}
-            {% include related-post-mobile-white.html title=post.title author=post.author url=post.url image_url=post.image_url date=post.date %}
+            {% include related-post-mobile-white.html title=post.title author=post.author url=post.url image=post.image date=post.date %}
           {% endif %}
         {% endfor %}
       </div>
@@ -166,9 +166,9 @@ layout: default
         {% for post in site.posts limit:12 %}
           {% assign mod = forloop.index | modulo: 2 %}
           {% if mod == 0 %}
-            {% include post-1.html title=post.title author=post.author url=post.url image_url=post.image_url date=post.date %}
+            {% include post-1.html title=post.title author=post.author url=post.url image=post.image date=post.date %}
           {% else %}
-            {% include post-2.html title=post.title author=post.author url=post.url image_url=post.image_url date=post.date %}
+            {% include post-2.html title=post.title author=post.author url=post.url image=post.image date=post.date %}
           {% endif %}
         {% endfor %}
       </div>

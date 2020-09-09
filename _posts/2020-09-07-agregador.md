@@ -2,7 +2,7 @@
 layout: post
 title:  "Como funciona o agregador de pesquisas do Pindograma"
 author: daniel
-image_url: /assets/post_images/agregador.png
+image: /assets/post_images/agregador.png
 date: 2020-09-07
 ---
 

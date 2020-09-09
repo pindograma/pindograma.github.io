@@ -2,8 +2,8 @@
 layout: post
 title:  "A fábrica de pesquisas falsas"
 subtitle: "Institutos de pesquisa receberam dinheiro público para produzir pesquisas fraudulentas. Entenda como as instituições brasileiras deixaram os responsáveis impunes."
-author: oscar
-image_url: /assets/post_images/pesquisas_falsas.png
+author: oscaromsn
+image: /assets/post_images/pesquisas_falsas.png
 date: 2020-09-07
 refid: realidade
 ---

@@ -18,7 +18,7 @@ layout: default
           </div>
         </div>
         <div class="article-image-container">
-          <img src="{{ page.image_url }}" class="article-image mx-auto" />
+          <img src="{{ page.image }}" class="article-image mx-auto" />
         </div>
       </div>
       <div class="row mt-2 px-5">
@@ -30,7 +30,7 @@ layout: default
 
           <div class="row">
             <div class="bottom-author-photo">
-              <img src="{{ author.image_url }}" alt="foto do autor" class="rounded-circle author-img m-0">
+              <img src="{{ author.image }}" alt="foto do autor" class="rounded-circle author-img m-0">
             </div>
 
             <div class="bottom-author-info">
@@ -56,7 +56,7 @@ layout: default
           <div class="card-body">
             <div class="row">
               {% for post in similar_posts limit:3 %}
-                {% include related-post.html title=post.title author=post.author url=post.url image_url=post.image_url date=post.date %}
+                {% include related-post.html title=post.title author=post.author url=post.url image=post.image date=post.date %}
               {% endfor %}
             </div>
           </div>
@@ -79,7 +79,7 @@ layout: default
 
         <div class="author-post-image-container-stretcher mt-2">
           <div class="author-post-image-container">
-            <img src="{{ page.image_url }}" class="author-post-image" />
+            <img src="{{ page.image }}" class="author-post-image" />
           </div>
         </div>
       </div>
@@ -90,7 +90,7 @@ layout: default
 
       <div class="row">
         <div class="col-12 mx-0 text-center" style="margin-bottom: -75px;">
-          <img src="{{ author.image_url }}" alt="foto do autor" class="rounded-circle author-img m-0">
+          <img src="{{ author.image }}" alt="foto do autor" class="rounded-circle author-img m-0">
         </div>
         <div class="col-12 mx-0 px-0">
           <div class="card bg-blue text-center m-0 blue pt-5" style="min-height:150px;width: 100%;border-radius: 1px;border:none;z-index:-1;">
@@ -111,9 +111,9 @@ layout: default
           {% for post in similar_posts limit:3 %}
             {% assign mod = forloop.index | modulo: 2 %}
             {% if mod == 0 %}
-              {% include related-post-mobile.html title=post.title author=post.author url=post.url image_url=post.image_url date=post.date %}
+              {% include related-post-mobile.html title=post.title author=post.author url=post.url image=post.image date=post.date %}
             {% else %}
-              {% include related-post-mobile-white.html title=post.title author=post.author url=post.url image_url=post.image_url date=post.date %}
+              {% include related-post-mobile-white.html title=post.title author=post.author url=post.url image=post.image date=post.date %}
             {% endif %}
           {% endfor %}
         </div>

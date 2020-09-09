@@ -6,7 +6,7 @@ layout: default
   <div class="container-fluid">
     <div class="row d-block d-md-none">
       <div class="col-12 mx-0 text-center" style="margin-bottom: -75px;">
-        <img src="{{ page.image_url }}" alt="foto do autor" class="rounded-circle author-img m-0">
+        <img src="{{ page.image }}" alt="foto do autor" class="rounded-circle author-img m-0">
       </div>
       <div class="col-12 mx-0 px-0">
         <div class="card bg-blue text-center m-0 blue pt-5" style="min-height:150px;width: 100%;border-radius: 1px;border:none;z-index:-1;">
@@ -29,7 +29,7 @@ layout: default
         <div class="row">
           {% assign filtered_posts = site.posts | where: 'author', page.short_name %}
           {% for post in filtered_posts %}
-            {% include author-post.html url=post.url image_url=post.image_url title=post.title subtitle=post.subtitle %}
+            {% include author-post.html url=post.url image=post.image title=post.title subtitle=post.subtitle %}
           {% endfor %}
         </div>
       </div>
@@ -44,7 +44,7 @@ layout: default
               <p>{{ page.bio }}.</p>
             </div>
           </div>
-          <img src="{{ page.image_url }}" alt="foto do autor" class="rounded-circle author-img">
+          <img src="{{ page.image }}" alt="foto do autor" class="rounded-circle author-img">
           <div class="circle-green"></div>
           <div class="circle-green" style="background-color: #6b82a0;width: 35px;height: 35px;margin: -160px 65px;"></div>
         </div>

@@ -1,6 +1,6 @@
 ---
-short_name: francisco
+short_name: franciscojricci
 name: Francisco Ricci
-image_url: /assets/author_images/fran-foto.png
+image: /assets/author_images/fran-foto.png
 bio: é fundador e repórter do Pindograma
 ---
