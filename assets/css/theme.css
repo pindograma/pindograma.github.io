@@ -167,7 +167,7 @@
 }
 
 .footer-text {
-  font-size: 22px;
+  font-size: 14px;
   font-family: 'Fantasque Sans Mono';
 }
 
@@ -500,11 +500,6 @@ footer .info hr{
   font-family: 'Fantasque Sans Mono';
   background: #d27103;
   height: 1px;
-}
-
-footer .info span {
-  color: gray;
-  font-size: 10px;
 }
 
 body .card-blue-author {
