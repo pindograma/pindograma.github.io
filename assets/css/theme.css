@@ -589,6 +589,23 @@ body .green-separator {
   border-width: 2px;
 }
 
+.graph-heading-green {
+  border-style: solid;
+  border-color: #8db33a;
+  display: inline-block;
+}
+
+.graph-heading-orange {
+  border-style: solid;
+  border-color: #d27103;
+  display: inline-block;
+}
+
+.graph-image {
+  width: 100%;
+  object-fit: contain;
+}
+
 section .graphics iframe {
   min-height: 300px;
 }
