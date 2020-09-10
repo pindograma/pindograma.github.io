@@ -22,6 +22,22 @@
   border-radius: 0 !important;
 }
 
+.input-orange {
+  font-family: 'Fantasque Sans Mono';
+  border-color: #d27103;
+  border-style: solid;
+  color: #6e787f;
+  outline: none;
+}
+
+.input-green {
+  font-family: 'Fantasque Sans Mono';
+  border-color: #8db33a;
+  border-style: solid;
+  color: #6e787f;
+  outline: none;
+}
+
 .main-headline-container {
   border-top: 8px solid #6c82a0;
   border-right: 8px solid #6c82a0;
