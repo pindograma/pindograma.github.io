@@ -78,43 +78,49 @@ layout: default
 
       <div class="col-12 col-lg-6 col-xl-4 mx-0 mx-sm-2 mx-md-0 p-0 px-md-5">
         <!-- Desktop Graphics -->
-        <div class="d-none d-md-block fixed-cards">
-          <div class="col-12 mx-2">
-            <div class="row mx-2 pt-4 graphics">
-              <div class="col-12 card m-0 p-0">
-                <a class="d-block card-body p-2" href="https://pindograma.shinyapps.io/agregador">
-                  <p class="underauthor green px-2 graph-heading-green">agregador de pesquisas</p>
-                  <p class="darkgray">Acompanhe as últimas pesquisas eleitorais por todo o Brasil</p>
+        <div class="d-none d-md-flex d-lg-block fixed-cards">
+          <div class="col-md-6 col-lg-12 mx-2 pt-4">
+            <div class="card m-0 p-0 gr-card">
+              <a class="d-flex card-body p-2 text-decoration-none gr-container" href="https://pindograma.shinyapps.io/agregador">
+                <p class="underauthor green px-2 graph-heading-green">agregador de pesquisas</p>
+                <p class="darkgray">Acompanhe as últimas pesquisas eleitorais por todo o Brasil</p>
+                <div class="gr-image">
                   <img src="/assets/images/agregador-raw.png" class="graph-image" />
                 </div>
               </a>
             </div>
-            
-            <div class="row mx-2 pt-4 graphics">
-              <div class="col-12 card m-0 p-0">
-                <div class="card-body p-2">
-                  <p class="underauthor orange px-2 graph-heading-orange">ranking de institutos</p>
-                  <p>Confira a performance passada dos institutos de pesquisa brasileiros</p>
-                  <img src="/assets/images/agregador-raw.png" class="graph-image" />
+          </div>
+          
+          <div class="col-md-6 col-lg-12 mx-2 pt-4">
+            <div class="card m-0 p-0 gr-card">
+              <a class="d-flex card-body p-2 text-decoration-none gr-container" href="/ranking.html">
+                <p class="underauthor orange px-2 graph-heading-orange">ranking de institutos</p>
+                <p class="darkgray">Confira a performance passada dos institutos de pesquisa brasileiros</p>
+                <div class="gr-image">
+                  {% include ranking-table.html %}
                 </div>
-              </div>
+              </a>
             </div>
           </div>
         </div>
 
         <!-- Mobile Graphics -->
         <div class="d-block d-md-none">
-          <div class="row w-100 graphics">
+          <div class="w-100">
             <div class="col-12 card m-0 p-0">
-              <div class="card-body p-0">
-                <iframe src="https://blank.org"></iframe>
-              </div>
+              <a class="d-block card-body p-2 text-decoration-none" href="https://pindograma.shinyapps.io/agregador">
+                <p class="underauthor green px-2 graph-heading-green">agregador de pesquisas</p>
+                <p class="darkgray">Acompanhe as últimas pesquisas eleitorais por todo o Brasil</p>
+                <img src="/assets/images/agregador-raw.png" class="graph-image" />
+              </a>
             </div>
 
             <div class="col-12 card m-0 p-0">
-              <div class="card-body p-0">
-                <iframe src="https://blank.org"></iframe>
-              </div>
+              <a class="d-block card-body p-2 text-decoration-none" href="/ranking.html">
+                <p class="underauthor orange px-2 graph-heading-orange">ranking de institutos</p>
+                <p class="darkgray">Confira a performance passada dos institutos de pesquisa brasileiros</p>
+                {% include ranking-table.html %}
+              </a>
             </div>
           </div>
         </div>

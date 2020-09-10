@@ -1,5 +1,9 @@
 /* (c) 2020 CincoNoveSeis Jornalismo Ltda. All rights reserved. */
 
+.text-decoration-none {
+  text-decoration: none !important;
+}
+
 .text-align-center {
   text-align: center;
 }
@@ -20,6 +24,24 @@
 
 .card {
   border-radius: 0 !important;
+}
+
+.gr-container {
+  flex-direction: column;
+}
+
+@media (max-width: 992px) {
+  .gr-card {
+    height: 100%;
+  }
+}
+
+.gr-image {
+  flex-grow: 1;
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .input-orange {
