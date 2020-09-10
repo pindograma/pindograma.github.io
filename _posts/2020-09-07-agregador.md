@@ -1,6 +1,8 @@
 ---
 layout: post
 title:  "Como funciona o agregador de pesquisas do Pindograma"
+subtitle: "Entenda o que há de diferente no agregador do Pindograma"
+description: "Entenda o que há de diferente no agregador do Pindograma"
 author: daniel
 image: /assets/post_images/agregador.png
 date: 2020-09-07

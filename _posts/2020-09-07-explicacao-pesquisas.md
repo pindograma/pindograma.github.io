@@ -2,6 +2,7 @@
 layout: post
 title:  "Como não ser enganado por uma pesquisa eleitoral"
 subtitle: "Entenda por que algumas pesquisas acertam mais do que outras – e como saber em quais confiar."
+description: "Entenda por que algumas pesquisas acertam mais do que outras – e como saber em quais confiar."
 author: daniel
 image: /assets/post_images/pesquisas.png
 date: 2020-09-07
