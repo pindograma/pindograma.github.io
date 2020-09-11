@@ -1,0 +1,108 @@
+---
+layout: default
+---
+
+<link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.css">
+<script src ="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.js"></script>
+<script src="/assets/ranking_data.js"></script>
+
+<style>
+#table_id {
+  font-family: 'Fantasque Sans Mono';
+}
+
+td {
+  border-color: #8db33a;
+  border-style: solid;
+  border-width: 1px;
+}
+
+.table-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.dataTables_wrapper {
+  width: 100% !important;
+}
+
+.dataTables_filter {
+  font-family: 'Fantasque Sans Mono';
+  font-size: 16px;
+}
+</style>
+
+<div class="container-md">
+  <div class="row px-5">
+    <div class="article-text">
+      <p>A tabela abaixo é o <b>Ranking de Institutos de Pesquisa do Pindograma</b>.
+      Como <a href="/2020/09/07/explicacao-pesquisas.html">já explicamos</a>,
+      pesquisas eleitorais não são previsões mágicas, nem loterias arbitrárias.
+      Para interpretar adequadamente o resultado de uma pesquisa, são
+      necessárias várias informações, entre as quais o desempenho passado do
+      instituto que a produziu.</p>
+
+      <p>Já que nem todo mundo tem tempo de analisar o histórico de centenas de
+      empresas de pesquisa no Brasil, fizemos isto por você e condensamos os
+      resultados nesta lista. Dela, excluímos apenas os institutos com menos de
+      cinco pesquisas publicadas no período de análise. (Para uma explicação
+      detalhada de como este Ranking foi calculado, <a
+      href="/2020/09/07/ranking.html">clique aqui</a>).</p>
+
+      <p>Com o Ranking, esperamos que nossos leitores e leitoras façam
+      julgamentos mais informados sobre as corridas eleitorais que ocorrerão
+      em 2020.</p>
+    </div>
+  </div>
+
+  <div class="row">
+    <p class="w-100 underauthor text-center" style="font-size: 16px;">Nota: Números menores indicam desempenho melhor dos institutos.</b>
+
+    <div class="table-container table-responsive">
+      <table id="table_id" class="display" style="width: 100%;">
+        <thead>
+          <tr>
+            <th>Nome</th>
+            <th>Erro Percentual Médio (Ajustado)</th>
+            <th>Pesquisas Analisadas</th>
+            <th>Índice de Desempenho Final</th>
+            <th>Nota</th>
+          </tr>
+        </thead>
+        <tbody>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+
+<script>
+$(document).ready( function () {
+  $('#table_id').DataTable( {
+    responsive: true,
+    language: {
+      search: 'Busca por instituto:',
+    },
+    info: false,
+    paging: false,
+    processing : false,
+    "data": pindograma_pollster_data,
+    "columns": [
+      { "data": "pretty_name" },
+      { "data": "avg", render: $.fn.dataTable.render.number('.', ',', 2) },
+      { "data": "n" },
+      { "data": "pred_pm", render: $.fn.dataTable.render.number('.', ',', 2) },
+      { "data": "grade" }
+    ],
+    columnDefs: [
+      { targets: [1, 2, 3, 4], 'searchable': false }
+    ]
+  });
+});
+
+$(window).resize(function () {
+  $("table.dataTable").resize();
+});
+</script>
