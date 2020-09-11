@@ -444,5 +444,5 @@ date: 2020-09-07
 <hr />
 <p><strong>Dados utilizados na matéria</strong>: Resultados de Pesquisas Eleitorais (<em>Pindograma</em>); Resultados de Pesquisas Eleitorais (Poder360).</p>
 <p><strong>Contribuíram com Dados</strong>: Pedro Fonseca, Maricélia Antonieto, Maria Clara Rodrigues, Raquel Fernandes, Natália Costard, Rodrigo Adinolfi, Fabrício Donnangelo, Yasmin Bom.</p>
-<p>Para reproduzir os números citados, o código pode ser consultado [aqui][8].</p>
+<p>Para reproduzir os números citados, o código pode ser consultado <a href="https://github.com/pindograma/materias/blob/master/2020-06-07-agregador/Agregador.Rmd">aqui</a>.</p>
 </div>
