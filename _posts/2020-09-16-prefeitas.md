@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Eleger prefeitas aumenta voto para candidaturas femininas em pleitos seguintes"
+title:  "Eleger prefeitas aumenta voto em mulheres nos pleitos seguintes"
 subtitle: "No entanto, efeito apenas é observado quando prefeitas têm ensino superior"
 description: "No entanto, efeito apenas é observado quando prefeitas têm ensino superior"
 author: franciscojricci
