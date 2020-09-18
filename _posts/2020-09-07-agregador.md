@@ -372,7 +372,7 @@ date: 2020-09-07
 }
 </style>
 <div id="ucpjcrzmks" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;"><table class="gt_table">
-  
+
   <thead class="gt_col_headings">
     <tr>
       <th class="gt_col_heading gt_columns_bottom_border gt_left" rowspan="1" colspan="1" style="background-color: #FFFFFF;"></th>
@@ -413,8 +413,8 @@ date: 2020-09-07
       <td class="gt_row gt_right" style="font-family: Fantasque Sans Mono; font-size: 15px; background-color: #F4CB1C; border-left-width: 1.5px; border-left-style: solid; border-left-color: #ffffff; border-right-width: 1.5px; border-right-style: solid; border-right-color: #ffffff;">54</td>
     </tr>
   </tbody>
-  
-  
+
+
 </table></div>
 </div>
 <div id="definição-de-pesos-temporais" class="section level5">
@@ -439,7 +439,7 @@ date: 2020-09-07
 </div>
 <div id="resultados" class="section level2">
 <h2>Resultados</h2>
-<p>Não há por que passar muito tempo descrevendo os resultados do agregador. Afinal, você pode acessá-lo <a href="https://pindograma.com.br/agregador.html">aqui</a>, e usá-lo para consultar pesquisas em centenas de pleitos pelo Brasil todo.</p>
+<p>Não há por que passar muito tempo descrevendo os resultados do agregador. Afinal, você pode acessá-lo <a href="https://pindograma.shinyapps.io/agregador/">aqui</a>, e usá-lo para consultar pesquisas em centenas de pleitos pelo Brasil todo.</p>
 <p>Dito isso, não pretendemos que nosso agregador se limite a algumas consultas pontuais. O <em>Pindograma</em> espera publicar várias reportagens em torno das corridas eleitorais de 2020 usando esses dados. E você, leitor, também pode usar o agregador para os seus projetos. Sinta-se à vontade para consultar os <a href="https://github.com/pindograma/pesquisas">dados</a> e o <a href="https://github.com/pindograma/agregador">código</a>, disponíveis na íntegra para qualquer pessoa. Aproveite para deixar um comentário ou uma contribuição.</p>
 <hr />
 <p><strong>Dados utilizados na matéria</strong>: Resultados de Pesquisas Eleitorais (<em>Pindograma</em>); Resultados de Pesquisas Eleitorais (Poder360).</p>
