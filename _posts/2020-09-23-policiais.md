@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "212 PMs estão irregularmente filiados a partidos políticos no Paraná"
+title:  "212 PMs estão irregularmente filiados a partidos no Paraná"
 subtitle: "Prática viola a Constituição Federal"
 description: "Prática viola a Constituição Federal"
 author: daniel
@@ -20,3 +20,5 @@ refid: policiais
 <p><strong>Nota</strong>: Para construir a lista de nomes comuns mencionada na matéria, o <em>Pindograma</em> usou a base completa de filiados a partidos no Brasil. Dela, listamos todos os nomes que apareciam duas vezes ou mais em uma mesma cidade.</p>
 <p><strong>Dados utilizados na matéria</strong>: Funcionários Públicos do Estado do Paraná (Portal da Transparência/CGE-PR); Filiados a Partidos Políticos (TSE).</p>
 <p>Para reproduzir os números citados, o código pode ser encontrado <a href="https://github.com/pindograma/materias/blob/master/2020-06-23-policiais/policiais.Rmd">aqui</a>.</p>
+
+_(Foto da matéria: Michel Jesus/Câmara dos Deputados)_
