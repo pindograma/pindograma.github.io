@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Recadastramento biométrico impediu 1,3 milhões de eleitores de votar"
+title: "Recadastramento biométrico impediu 1,3 milhão de eleitores de votarem"
 subtitle: "Política do TSE também afeta as eleições de 2020"
 description: "Política do TSE também afeta as eleições de 2020"
 author: pedrog
@@ -58,5 +58,9 @@ refid: disenfranchisement
 <hr />
 <p><strong>Dados utilizados na matéria</strong>: Estatísticas do Eleitorado (Tribunal Superior Eleitoral); Lista de Recadastramentos Biométricos (Tribunal Superior Eleitoral); Censo Demográfico 2010 (IBGE/CEM-USP); Localização de seções eleitorais (<em>Pindograma</em>).</p>
 <p><strong>Contribuiu com dados</strong>: Daniel Ferreira.</p>
+
+<p><b>Foto da matéria</b>: Ramiro Furquim/Sul21.com.br.</p>
+
 <p>Para reproduzir os números desta matéria, o código pode ser encontrado <a href="https://github.com/pindograma/materias/blob/master/2020-06-27-disenfranchisement/Biometria.Rmd">aqui</a>.</p>
+
 </div>
