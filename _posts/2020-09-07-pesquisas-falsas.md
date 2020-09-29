@@ -2,7 +2,7 @@
 layout: post
 title:  "A fábrica de pesquisas falsas"
 subtitle: "Institutos de pesquisa receberam dinheiro público para produzir pesquisas fraudulentas; e as instituições brasileiras deixaram os responsáveis impunes"
-descriptions: "Entenda como um esquema de desvio de dinheiro público para produzir pesquisas falsas durou mais de uma década"
+description: "Entenda como um esquema de desvio de dinheiro público para produzir pesquisas falsas durou mais de uma década"
 author: oscaromsn
 image: /assets/post_images/pesquisas_falsas.png
 date: 2020-09-07
