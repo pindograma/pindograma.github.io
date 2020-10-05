@@ -4,7 +4,7 @@ title: "Recadastramento biométrico impediu 1,3 milhão de eleitores de votarem"
 subtitle: "Política do TSE também afeta as eleições de 2020"
 description: "Política do TSE também afeta as eleições de 2020"
 author: pedrog
-image: /assets/post_images/disenfranchisement.png
+image: /assets/post_images/disenfranchisement2.png
 date: 2020-09-27
 refid: disenfranchisement
 ---
