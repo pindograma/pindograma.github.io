@@ -79,6 +79,59 @@ td {
 </div>
 
 <script>
+grade_combinations = {
+  'A': {
+    'B+': 1,
+    'B': 1,
+    'B-': 1,
+    'C': 1,
+    'D': 1
+  },
+  'B+': {
+    'A': -1,
+    'B': 1,
+    'B-': 1,
+    'C': 1,
+    'D': 1
+  },
+  'B': {
+    'A': -1,
+    'B+': -1,
+    'B-': 1,
+    'C': 1,
+    'D': 1
+  },
+  'B-': {
+    'A': -1,
+    'B+': -1,
+    'B': -1,
+    'C': 1,
+    'D': 1
+  },
+  'C': {
+    'A': -1,
+    'B+': -1,
+    'B': -1,
+    'B-': -1,
+    'D': 1,
+  },
+  'D': {
+    'A': -1,
+    'B+': -1,
+    'B': -1,
+    'B-': -1,
+    'C': -1
+  }
+}
+
+$.fn.dataTableExt.oSort['grade-asc'] = function(x, y) {
+  return -grade_combinations[x][y]
+}
+
+$.fn.dataTableExt.oSort['grade-desc'] = function(x, y) {
+  return grade_combinations[x][y]
+}
+
 $(document).ready( function () {
   $('#table_id').DataTable( {
     responsive: true,
@@ -94,7 +147,7 @@ $(document).ready( function () {
       { "data": "avg", render: $.fn.dataTable.render.number('.', ',', 2) },
       { "data": "n" },
       { "data": "pred_pm", render: $.fn.dataTable.render.number('.', ',', 2) },
-      { "data": "grade" }
+      { "data": "grade", type: 'grade' }
     ],
     columnDefs: [
       { targets: [1, 2, 3, 4], 'searchable': false }
