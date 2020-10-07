@@ -266,6 +266,18 @@ header hr {
   flex: 1 1 0;
 }
 
+.share-img {
+  width: 60px;
+  height: 60px;
+  padding-bottom: 10px;
+}
+
+.share-img-mobile {
+  width: 30px;
+  height: 30px;
+  padding-right: 8px;
+}
+
 .bigtitle {
   font-family: sans-serif;
   font-weight: bold;
