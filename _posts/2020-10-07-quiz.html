@@ -1,0 +1,345 @@
+---
+layout: post
+title: "Você conhece o Brasil em números?"
+subtitle: "Teste seus conhecimentos sobre a sociedade brasileira"
+description: "Quiz"
+author: franciscojricci
+image: /assets/post_images/quiz_brasil.png
+date: 2020-10-07
+quiz: true
+---
+
+<script>
+  $(document).ready(function() {
+    result_1 = 'Deu azar. Mas tudo bem: o Brasil é um país vasto e complexo, difícil de ser compreendido!<br><br>Quer saber mais? Siga o <i>Pindograma</i> nas redes sociais! E compartilhe esse questionário para saber o quanto seus amigos conhecem o Brasil em números!'
+    result_2 = 'Você conhece bem o Brasil! Mas se quiser saber ainda mais, siga o <i>Pindograma</i> nas redes sociais. E aproveite para compartilhar esse questionário para saber o quanto seus amigos conhecem do Brasil em números!'
+    result_3 = 'Parabéns, você está a par de tudo que acontece no Brasil!<br><br>Siga o <i>Pindograma</i> nas redes sociais para não perder nada mesmo! Compartilhe esse questionário para mostrar o quanto você conhece do Brasil em números.'
+    result_4 = 'Parabéns! Você quase acertou todas!<br><br>Para se informar ainda mais, siga o <i>Pindograma</i> nas redes sociais e compartilhe esse questionário para mostrar quanto você conhece o Brasil em números!'
+    result_5 = 'Uau! Você acertou tudo! Estaremos te esperando na próxima reunião de pauta do <i>Pindograma</i> ;).'
+
+    $(window).trigger('quiz_loaded', [{
+      quiz: [{
+        question: {
+          text: 'O Brasil confia na sua imprensa?',
+        },
+        possible_answers: [{
+          answer: 'Sim: apenas 9% desconfia da imprensa, como na Finlândia.',
+          correct: false,
+          title: "Errado!",
+          text: 'De acordo com o <a href="http://www.worldvaluessurvey.org/WVSOnline.jsp">World Values Survey</a>, 36% não confiam na imprensa – nível similar ao do México.'
+        }, {
+          answer: 'Um pouco: 23% desconfia da imprensa, como nos Estados Unidos',
+          correct: false,
+          title: "Errado!",
+          text: 'De acordo com o <a href="http://www.worldvaluessurvey.org/WVSOnline.jsp">World Values Survey</a>, 36% não confiam na imprensa – nível similar ao do México.'
+        }, {
+          answer: 'Não muito: 36% desconfia da imprensa, como no México',
+          correct: true,
+          title: "Correto!",
+          text: 'De acordo com o <a href="http://www.worldvaluessurvey.org/WVSOnline.jsp">World Values Survey</a>, 36% não confiam na imprensa – nível similar ao do México.'
+        }, {
+          answer: 'Nem um pouco: 50% desconfia da imprensa, como no Egito',
+          correct: false,
+          title: "Errado!",
+          text: 'De acordo com o <a href="http://www.worldvaluessurvey.org/WVSOnline.jsp">World Values Survey</a>, 36% não confiam na imprensa – nível similar ao do México.'
+        }],
+      }, {
+        question: {
+          text: 'Quanto você precisa ganhar por mês, aproximadamente, para estar entre os 10% mais ricos do Brasil?',
+        },
+        possible_answers: [{
+          answer: 'R$25.000',
+          correct: false,
+          title: "Errado!",
+          text: 'Em 2019, a renda média per capita dos brasileiros foi de R$1.439, <a href="https://www.ibge.gov.br/estatisticas/sociais/educacao/9171-pesquisa-nacional-por-amostra-de-domicilios-continua-mensal.html?edicao=19757&t=destaque">de acordo com o IBGE</a>. Quem recebe mais que R$5.214 está entre os 10% mais ricos. O 1% mais rico do Brasil, porém, tem um rendimento substancialmente maior: R$27.744 por mês!',
+        }, {
+          answer: 'R$15.000',
+          correct: false,
+          title: "Errado!",
+          text: 'Em 2019, a renda média per capita dos brasileiros foi de R$1.439, <a href="https://www.ibge.gov.br/estatisticas/sociais/educacao/9171-pesquisa-nacional-por-amostra-de-domicilios-continua-mensal.html?edicao=19757&t=destaque">de acordo com o IBGE</a>. Quem recebe mais que R$5.214 está entre os 10% mais ricos. O 1% mais rico do Brasil, porém, tem um rendimento substancialmente maior: R$27.744 por mês!',
+        }, {
+          answer: 'R$5.000',
+          correct: true,
+          title: "Correto!",
+          text: 'Em 2019, a renda média per capita dos brasileiros foi de R$1.439, <a href="https://www.ibge.gov.br/estatisticas/sociais/educacao/9171-pesquisa-nacional-por-amostra-de-domicilios-continua-mensal.html?edicao=19757&t=destaque">de acordo com o IBGE</a>. Quem recebe mais que R$5.214 está entre os 10% mais ricos. O 1% mais rico do Brasil, porém, tem um rendimento substancialmente maior: R$27.744 por mês!',
+        }, {
+          answer: 'R$2.000',
+          correct: false,
+          title: "Errado!",
+          text: 'Em 2019, a renda média per capita dos brasileiros foi de R$1.439, <a href="https://www.ibge.gov.br/estatisticas/sociais/educacao/9171-pesquisa-nacional-por-amostra-de-domicilios-continua-mensal.html?edicao=19757&t=destaque">de acordo com o IBGE</a>. Quem recebe mais que R$5.214 está entre os 10% mais ricos. O 1% mais rico do Brasil, porém, tem um rendimento substancialmente maior: R$27.744 por mês!',
+        }],
+      }, {
+        question: {
+          text: 'Qual porcentagem dos brasileiros entre 25 e 64 anos tem graduação universitária?',
+        },
+        possible_answers: [{
+          answer: '8%',
+          correct: false,
+          title: "Errado!",
+          text: 'O <a href="https://revistaensinosuperior.com.br/universitarios-ocde/">"Education at a Glance"</a>, estudo da OCDE, mostra que o Brasil tem algumas das taxas mais baixas de graduação e pós-graduação entre os 35 países do estudo: apenas 18% dos brasileiros entre 25 e 64 anos concluíram o Ensino Superior.'
+        }, {
+          answer: '18%',
+          correct: true,
+          title: "Correto!",
+          text: 'O <a href="https://revistaensinosuperior.com.br/universitarios-ocde/">"Education at a Glance"</a>, estudo da OCDE, mostra que o Brasil tem algumas das taxas mais baixas de graduação e pós-graduação entre os 35 países do estudo: apenas 18% dos brasileiros entre 25 e 64 anos concluíram o Ensino Superior.'
+        }, {
+          answer: '28%',
+          correct: false,
+          title: "Errado!",
+          text: 'O <a href="https://revistaensinosuperior.com.br/universitarios-ocde/">"Education at a Glance"</a>, estudo da OCDE, mostra que o Brasil tem algumas das taxas mais baixas de graduação e pós-graduação entre os 35 países do estudo: apenas 18% dos brasileiros entre 25 e 64 anos concluíram o Ensino Superior.'
+        }, {
+          answer: '38%',
+          correct: false,
+          title: "Errado!",
+          text: 'O <a href="https://revistaensinosuperior.com.br/universitarios-ocde/">"Education at a Glance"</a>, estudo da OCDE, mostra que o Brasil tem algumas das taxas mais baixas de graduação e pós-graduação entre os 35 países do estudo: apenas 18% dos brasileiros entre 25 e 64 anos concluíram o Ensino Superior.'
+        }],
+      }, {
+        question: {
+          text: 'Qual a escala da desigualdade racial no Brasil?',
+        },
+        possible_answers: [{
+          answer: 'Brancos ganham 5% a mais que pretos e pardos.',
+          correct: false,
+          title: "Errado!",
+          text: 'De acordo com <a href="https://valor.globo.com/brasil/noticia/2019/11/06/homens-brancos-ganham-74percent-a-mais-que-negros-e-27percent-a-mais-que-mulheres-mostra-ibge.ghtml">estudo do IBGE</a>, em 2018, os brancos ganhavam em média 73,9% mais do que pretos ou pardos. Os homens ganhavam, em média, 27,1% mais que as mulheres.'
+        }, {
+          answer: 'Brancos ganham 10% a mais que pretos e pardos.',
+          correct: false,
+          title: "Errado!",
+          text: 'De acordo com <a href="https://valor.globo.com/brasil/noticia/2019/11/06/homens-brancos-ganham-74percent-a-mais-que-negros-e-27percent-a-mais-que-mulheres-mostra-ibge.ghtml">estudo do IBGE</a>, em 2018, os brancos ganhavam em média 73,9% mais do que pretos ou pardos. Os homens ganhavam, em média, 27,1% mais que as mulheres.'
+        }, {
+          answer: 'Brancos ganham 30% a mais que pretos e pardos.',
+          correct: false,
+          title: "Errado!",
+          text: 'De acordo com <a href="https://valor.globo.com/brasil/noticia/2019/11/06/homens-brancos-ganham-74percent-a-mais-que-negros-e-27percent-a-mais-que-mulheres-mostra-ibge.ghtml">estudo do IBGE</a>, em 2018, os brancos ganhavam em média 73,9% mais do que pretos ou pardos. Os homens ganhavam, em média, 27,1% mais que as mulheres.'
+        }, {
+          answer: 'Brancos ganham 70% a mais que pretos e pardos.',
+          correct: true,
+          title: "Correto!",
+          text: 'De acordo com <a href="https://valor.globo.com/brasil/noticia/2019/11/06/homens-brancos-ganham-74percent-a-mais-que-negros-e-27percent-a-mais-que-mulheres-mostra-ibge.ghtml">estudo do IBGE</a>, em 2018, os brancos ganhavam em média 73,9% mais do que pretos ou pardos. Os homens ganhavam, em média, 27,1% mais que as mulheres.'
+        }],
+      }, {
+        question: {
+          text: 'Que porcentagem das emissões de carbono do Brasil vêm do desmatamento?'
+        },
+        possible_answers: [{
+          answer: 'Pouco: 3%',
+          correct: false,
+          title: "Errado!",
+          text: 'Segundo o <a href="http://www.observatoriodoclima.eco.br/brasil-contraria-tendencia-global-e-pode-ter-alta-em-emissoes-na-pandemia/">Observatório do Clima</a>, 44% das emissões de carbono do Brasil em 2018 vieram de mudança de uso da terra.',
+        }, {
+          answer: 'Um tanto: 10%',
+          correct: true,
+          title: "Correto!",
+          text: 'Segundo o <a href="http://www.observatoriodoclima.eco.br/brasil-contraria-tendencia-global-e-pode-ter-alta-em-emissoes-na-pandemia/">Observatório do Clima</a>, 44% das emissões de carbono do Brasil em 2018 vieram de mudança de uso da terra.',
+        }, {
+          answer: 'Bastante: 18%',
+          correct: true,
+          title: "Correto!",
+          text: 'Segundo o <a href="http://www.observatoriodoclima.eco.br/brasil-contraria-tendencia-global-e-pode-ter-alta-em-emissoes-na-pandemia/">Observatório do Clima</a>, 44% das emissões de carbono do Brasil em 2018 vieram de mudança de uso da terra.',
+        }, {
+          answer: 'Realmente bastante: 44%',
+          correct: true,
+          title: "Correto!",
+          text: 'Segundo o <a href="http://www.observatoriodoclima.eco.br/brasil-contraria-tendencia-global-e-pode-ter-alta-em-emissoes-na-pandemia/">Observatório do Clima</a>, 44% das emissões de carbono do Brasil em 2018 vieram de mudança de uso da terra.',
+        }],
+      }, {
+        question: {
+          text: 'Qual o tamanho do PIB brasileiro?',
+        },
+        possible_answers: [{
+          answer: '6º maior do mundo: 2,71 trilhões de dólares',
+          correct: false,
+          title: "Errado!",
+          text: 'De acordo com <a href="https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?year_high_desc=true">dados do Banco Mundial</a>, o Brasil tem a 9ª maior economia do mundo em 2019. Em seu auge em 2012, o Brasil chegou a ser a 7ª maior economia do mundo, ficando apenas 44 bilhões atrás da 6ª maior economia, o Reino Unido.'
+        }, {
+          answer: '9º maior do mundo: 1,83 trilhão de dólares',
+          correct: true,
+          title: "Correto!",
+          text: 'De acordo com <a href="https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?year_high_desc=true">dados do Banco Mundial</a>, o Brasil tem a 9ª maior economia do mundo em 2019. Em seu auge em 2012, o Brasil chegou a ser a 7ª maior economia do mundo, ficando apenas 44 bilhões atrás da 6ª maior economia, o Reino Unido.'
+        }, {
+          answer: '15º maior do mundo: 1,72 trilhão de dólares',
+          correct: false,
+          title: "Errado!",
+          text: 'De acordo com <a href="https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?year_high_desc=true">dados do Banco Mundial</a>, o Brasil tem a 9ª maior economia do mundo em 2019. Em seu auge em 2012, o Brasil chegou a ser a 7ª maior economia do mundo, ficando apenas 44 bilhões atrás da 6ª maior economia, o Reino Unido.'
+        }, {
+          answer: '27º maior do mundo: 1,31 trilhão de dólares',
+          correct: false,
+          title: "Errado!",
+          text: 'De acordo com <a href="https://data.worldbank.org/indicator/NY.GDP.MKTP.CD?year_high_desc=true">dados do Banco Mundial</a>, o Brasil tem a 9ª maior economia do mundo em 2019. Em seu auge em 2012, o Brasil chegou a ser a 7ª maior economia do mundo, ficando apenas 44 bilhões atrás da 6ª maior economia, o Reino Unido.'
+        }],
+      }, {
+        question: {
+          text: 'Em termos das desigualdades regionais, o quão maior é a renda média do Distrito Federal do que a do Maranhão?',
+        },
+        possible_answers: [{
+          answer: 'Quase 2 vezes maior',
+          correct: false,
+          title: "Errado!",
+          text: 'A renda média mensal do Maranhão <a href="https://g1.globo.com/ma/maranhao/noticia/2019/02/28/maranhao-tem-a-menor-renda-domiciliar-do-brasil-segundo-o-ibge.ghtml">é de R$635</a>, a menor da federação, enquanto a do Distrito Federal é de R$2.685.'
+        }, {
+          answer: 'Pouco mais de 2 vezes maior',
+          correct: false,
+          title: "Errado!",
+          text: 'A renda média mensal do Maranhão <a href="https://g1.globo.com/ma/maranhao/noticia/2019/02/28/maranhao-tem-a-menor-renda-domiciliar-do-brasil-segundo-o-ibge.ghtml">é de R$635</a>, a menor da federação, enquanto a do Distrito Federal é de R$2.685.'
+        }, {
+          answer: 'Quase 3 vezes maior',
+          correct: false,
+          title: "Errado!",
+          text: 'A renda média mensal do Maranhão <a href="https://g1.globo.com/ma/maranhao/noticia/2019/02/28/maranhao-tem-a-menor-renda-domiciliar-do-brasil-segundo-o-ibge.ghtml">é de R$635</a>, a menor da federação, enquanto a do Distrito Federal é de R$2.685.'
+        }, {
+          answer: 'Mais de 4 vezes maior',
+          correct: true,
+          title: "Correto!",
+          text: 'A renda média mensal do Maranhão <a href="https://g1.globo.com/ma/maranhao/noticia/2019/02/28/maranhao-tem-a-menor-renda-domiciliar-do-brasil-segundo-o-ibge.ghtml">é de R$635</a>, a menor da federação, enquanto a do Distrito Federal é de R$2.685.'
+        }],
+      }, {
+        question: {
+          text: 'Que porcentagem da energia elétrica brasileira é renovável?',
+        },
+        possible_answers: [{
+          answer: 'Pouca: 10%',
+          correct: false,
+          title: "Errado!",
+          text: 'De acordo com a <a href="https://www.epe.gov.br/pt/abcdenergia/matriz-energetica-e-eletrica">Empresa de Pesquisa Energética</a>, 65% da energia elétrica gerada no Brasil vem de usinas hidrelétricas, 8% de biomassa e 7% de solar.'
+        }, {
+          answer: 'Um tanto: 20%',
+          correct: false,
+          title: "Errado!",
+          text: 'De acordo com a <a href="https://www.epe.gov.br/pt/abcdenergia/matriz-energetica-e-eletrica">Empresa de Pesquisa Energética</a>, 65% da energia elétrica gerada no Brasil vem de usinas hidrelétricas, 8% de biomassa e 7% de solar.'
+        }, {
+          answer: 'Bastante: 40%',
+          correct: false,
+          title: "Errado!",
+          text: 'De acordo com a <a href="https://www.epe.gov.br/pt/abcdenergia/matriz-energetica-e-eletrica">Empresa de Pesquisa Energética</a>, 65% da energia elétrica gerada no Brasil vem de usinas hidrelétricas, 8% de biomassa e 7% de solar.'
+        }, {
+          answer: 'Bastante mesmo: 80%',
+          correct: true,
+          title: "Correto!",
+          text: 'De acordo com a <a href="https://www.epe.gov.br/pt/abcdenergia/matriz-energetica-e-eletrica">Empresa de Pesquisa Energética</a>, 65% da energia elétrica gerada no Brasil vem de usinas hidrelétricas, 8% de biomassa e 7% de solar.'
+        }],
+      }, {
+        question: {
+          text: 'Os brasileiros são interessados em política?',
+        },
+        possible_answers: [{
+          answer: 'Muito: 78% têm interesse, como na Alemanha',
+          correct: false,
+          title: "Errado!",
+          text: 'De acordo com o <a href="http://www.worldvaluessurvey.org/WVSOnline.jsp">World Values Survey</a>, 39% dos brasileiros têm interesse em política – nível similar ao da Argentina.'
+        }, {
+          answer: 'Sim: 65% têm interesse, como nos Estados Unidos',
+          correct: false,
+          title: "Errado!",
+          text: 'De acordo com o <a href="http://www.worldvaluessurvey.org/WVSOnline.jsp">World Values Survey</a>, 39% dos brasileiros têm interesse em política – nível similar ao da Argentina.'
+        }, {
+          answer: 'Só um pouco: 39% têm interesse, como na Argentina',
+          correct: true,
+          title: "Correto!",
+          text: 'De acordo com o <a href="http://www.worldvaluessurvey.org/WVSOnline.jsp">World Values Survey</a>, 39% dos brasileiros têm interesse em política – nível similar ao da Argentina.'
+        }, {
+          answer: 'Muito pouco: 39% têm interesse, como no Egito',
+          correct: false,
+          title: "Errado!",
+          text: 'De acordo com o <a href="http://www.worldvaluessurvey.org/WVSOnline.jsp">World Values Survey</a>, 39% dos brasileiros têm interesse em política – nível similar ao da Argentina.'
+        }],
+      }, {
+        question: {
+          text: 'O Brasil é mais desigual que a África do Sul?'
+        },
+        possible_answers: [{
+          answer: 'Sim',
+          correct: false,
+          title: "Errado!",
+          text: 'A África do Sul é a única democracia mais desigual que o Brasil de acordo com o índice Gini, <a href="https://data.worldbank.org/indicator/SI.POV.GINI">calculado pelo Banco Mundial</a>. O Gini da África do Sul é de 0,63 e o do Brasil é de 0,53.',
+        }, {
+          answer: 'Não',
+          correct: true,
+          title: "Correto!",
+          text: 'A África do Sul é a única democracia mais desigual que o Brasil de acordo com o índice Gini, <a href="https://data.worldbank.org/indicator/SI.POV.GINI">calculado pelo Banco Mundial</a>. O Gini da África do Sul é de 0,63 e o do Brasil é de 0,53.',
+        }],
+      }, {
+        question: {
+          text: 'Qual a atitude dos brasileiros com relação a sexo causal?',
+        },
+        possible_answers: [{
+          answer: 'Metade da população é contra, como na Croácia',
+          correct: false,
+          title: "Errado!",
+          text: 'De acordo com o <a href="http://www.worldvaluessurvey.org/WVSOnline.jsp">World Values Survey</a>, o Brasil é relativamente liberal quanto a relações sexuais casuais, assim como a Itália.'
+        }, {
+          answer: 'Uma vasta maioria de 90% é contra, como na Etiópia',
+          correct: false,
+          title: "Errado!",
+          text: 'De acordo com o <a href="http://www.worldvaluessurvey.org/WVSOnline.jsp">World Values Survey</a>, o Brasil é relativamente liberal quanto a relações sexuais casuais, assim como a Itália.'
+        }, {
+          answer: 'Apenas 35% é contra, como na Itália',
+          correct: true,
+          title: "Correto!",
+          text: 'De acordo com o <a href="http://www.worldvaluessurvey.org/WVSOnline.jsp">World Values Survey</a>, o Brasil é relativamente liberal quanto a relações sexuais casuais, assim como a Itália.'
+        }, {
+          answer: 'Uma maioria de 60% é contra, como na Turquia',
+          correct: false,
+          title: "Errado!",
+          text: 'De acordo com o <a href="http://www.worldvaluessurvey.org/WVSOnline.jsp">World Values Survey</a>, o Brasil é relativamente liberal quanto a relações sexuais casuais, assim como a Itália.'
+        }],
+      }, {
+        question: {
+          text: 'Os brasileiros são favoráveis ao aborto?',
+        },
+        possible_answers: [{
+          answer: 'Definitivamente: apenas 36% são contrários ao aborto em todos os casos, como no Chile',
+          correct: false,
+          title: "Errado!",
+          text: 'De acordo com o <a href="http://www.worldvaluessurvey.org/WVSOnline.jsp">World Values Survey</a>, o Brasil é extremamente contrário ao aborto, com até 64% da população discordando que há qualquer justificativa para realizá-lo.'
+        }, {
+          answer: 'Um tanto: 47% são contrários ao aborto em todos os casos, como na Argentina',
+          correct: false,
+          title: "Errado!",
+          text: 'De acordo com o <a href="http://www.worldvaluessurvey.org/WVSOnline.jsp">World Values Survey</a>, o Brasil é extremamente contrário ao aborto, com até 64% da população discordando que há qualquer justificativa para realizá-lo.'
+        }, {
+          answer: 'Bem pouco: 58% são contrários ao aborto em todos os casos, como no Irã',
+          correct: false,
+          title: "Errado!",
+          text: 'De acordo com o <a href="http://www.worldvaluessurvey.org/WVSOnline.jsp">World Values Survey</a>, o Brasil é extremamente contrário ao aborto, com até 64% da população discordando que há qualquer justificativa para realizá-lo.'
+        }, {
+          answer: 'Certamente não: 64% são contrários ao aborto em todos os casos, como em Bangladesh',
+          correct: true,
+          title: "Correto!",
+          text: 'De acordo com o <a href="http://www.worldvaluessurvey.org/WVSOnline.jsp">World Values Survey</a>, o Brasil é extremamente contrário ao aborto, com até 64% da população discordando que há qualquer justificativa para realizá-lo.'
+        }],
+      }, {
+        question: {
+          text: 'Quantas espécies de árvores vivem na Amazônia?',
+        },
+        possible_answers: [{
+          answer: '60',
+          correct: false,
+          title: "Errado!",
+          text: 'Mike Hopkins, curador do herbário do Instituto Nacional de Pesquisas da Amazônia, estima que são no mínimo 25 mil espécies. Em comparação, o Reino Unido tem 60 espécies de árvores. Hopkins, <a href="https://www.nationalgeographicbrasil.com/natgeo-ilustra/amazonia">em entrevista à National Geographic</a>, disse que "metade da Amazônia nunca foi visitada por um botânico e nós temos uma riqueza gigantesca em cada hectare".'
+        }, {
+          answer: '1.600',
+          correct: false,
+          title: "Errado!",
+          text: 'Mike Hopkins, curador do herbário do Instituto Nacional de Pesquisas da Amazônia, estima que são no mínimo 25 mil espécies. Em comparação, o Reino Unido tem 60 espécies de árvores. Hopkins, <a href="https://www.nationalgeographicbrasil.com/natgeo-ilustra/amazonia">em entrevista à National Geographic</a>, disse que "metade da Amazônia nunca foi visitada por um botânico e nós temos uma riqueza gigantesca em cada hectare".'
+        }, {
+          answer: '16.000',
+          correct: false,
+          title: "Errado!",
+          text: 'Mike Hopkins, curador do herbário do Instituto Nacional de Pesquisas da Amazônia, estima que são no mínimo 25 mil espécies. Em comparação, o Reino Unido tem 60 espécies de árvores. Hopkins, <a href="https://www.nationalgeographicbrasil.com/natgeo-ilustra/amazonia">em entrevista à National Geographic</a>, disse que "metade da Amazônia nunca foi visitada por um botânico e nós temos uma riqueza gigantesca em cada hectare".'
+        }, {
+          answer: 'Não sabemos, mas são muitas',
+          correct: true,
+          title: "Correto!",
+          text: 'Mike Hopkins, curador do herbário do Instituto Nacional de Pesquisas da Amazônia, estima que são no mínimo 25 mil espécies. Em comparação, o Reino Unido tem 60 espécies de árvores. Hopkins, <a href="https://www.nationalgeographicbrasil.com/natgeo-ilustra/amazonia">em entrevista à National Geographic</a>, disse que "metade da Amazônia nunca foi visitada por um botânico e nós temos uma riqueza gigantesca em cada hectare".'
+        }],
+      }],
+      results: [
+        result_1, result_1, result_1, result_1, result_1,
+        result_2, result_2, result_2, result_2, result_2,
+        result_3, result_3,
+        result_4,
+        result_5
+      ]}])
+  })
+</script>
