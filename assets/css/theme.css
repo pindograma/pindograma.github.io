@@ -725,6 +725,10 @@ body .article-text {
   display: block;
 }
 
+body .article-text-maxw {
+  max-width: 575px;
+}
+
 @media (max-width: 768px) {
   body .article-text {
     font-family: 'Century Schoolbook L';
