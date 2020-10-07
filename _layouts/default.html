@@ -34,6 +34,32 @@
     <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
     {% seo %}
+
+    {% if page.quiz == true %}
+      <link rel="stylesheet" href="/assets/css/newsquiz.css" />
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="/assets/js/newsquiz.js" type="text/javascript"></script>
+      <script>
+        function createQuiz(quiz_data) {
+          if (window.innerWidth < 768) {
+            $('.single-mobile .article-text').prepend('<div id="quiz"></div>')
+            $('.d-none .article-text').prepend('<p><b>Recarregue a página para visualizar o quiz.</b></p>')
+          } else {
+            $('.d-none .article-text').prepend('<div id="quiz"></div>')
+            $('.single-mobile .article-text').prepend('<p><b>Recarregue a página para visualizar o quiz.</b></p>')
+          }
+
+          jQuery('#quiz').quiz(quiz_data)
+        }
+
+        $(window).bind('quiz_loaded', function(event, quiz_data) {
+          if (!window.createdQuiz) {
+            window.createdQuiz = true
+            createQuiz(quiz_data)
+          }
+        })
+      </script>
+    {% endif %}
   </head>
 
   <body>
