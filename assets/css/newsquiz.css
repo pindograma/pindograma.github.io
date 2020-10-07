@@ -2,6 +2,10 @@
     padding: .75em;
 }
 
+.bld {
+  font-weight: bold;
+}
+
 .possible_answer:hover {
 	background: #dce9ef;
 	cursor: pointer;
