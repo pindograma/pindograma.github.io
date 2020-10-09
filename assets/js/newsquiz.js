@@ -213,7 +213,6 @@
                 self.create_cover();
 
                 for ( var i = 0; i < self.quiz_data.length; i++ ) {
-                    console.log('APPEND Q')
                     self.append_question(i);
                 }
 
@@ -522,7 +521,6 @@
                 if (unfinished && typeof(this.not_finished_html) !== 'undefined') {
                     html = this.not_finished_html;
                 } else {
-                    console.log(this.results_data)
                     html = '<p class="how_you_did">' + this.results_data[right_answers] + '</p>';
                 }
                 how_you_did_element.html(html);
