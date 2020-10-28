@@ -150,7 +150,7 @@ layout: default
     <div class="row mt-2 mx-0 p-0 d-block d-sm-none index-mobile">
       <h1 class="title-read-too blue pl-5">recentes</h1>
       <div class="read-too">
-        {% for post in site.posts limit:12 %}
+        {% for post in site.posts limit:30 %}
           {% assign mod = forloop.index | modulo: 2 %}
           {% if mod == 0 %}
             {% include related-post-mobile.html title=post.title author=post.author url=post.url image=post.image date=post.date %}
@@ -170,7 +170,7 @@ layout: default
           </div>
         </div>
         <h1 class="d-sm-block d-md-none index-mobile title-read-too blue mb-0" style="text-decoration: underline;">recentes</h1>
-        {% for post in site.posts limit:12 %}
+        {% for post in site.posts limit:30 %}
           {% assign mod = forloop.index | modulo: 2 %}
           {% if mod == 0 %}
             {% include post-1.html title=post.title author=post.author url=post.url image=post.image date=post.date %}
