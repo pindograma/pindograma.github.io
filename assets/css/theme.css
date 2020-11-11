@@ -414,9 +414,40 @@ body .newsletter .card .title{
 }
 
 body .newsletter .card .sign-up{
-  color: #747e85;
-  font-weight: 300;
+  color: #d27103;
+  font-weight: 500;
   font-size: 28px;
+}
+
+body .newsletter .card .field-orange{
+  font-family: 'Fantasque Sans Mono';
+  border-color: #d27103;
+  border-style: solid;
+  color: #6e787f; 
+  width: 100%;
+  outline: none;
+}
+
+body .newsletter .card .field-orange:hover{
+  border-color: #8db33a;
+  border-style: solid;
+}
+
+body .newsletter .card .button{
+  background-color: #FFFFFF;
+  margin-top: 10px;
+  color: #6e787f; 
+  width: 100px;
+  border-color: #d27103;
+  border-style: solid;
+  transition-duration: 0.2s;
+  text-align: center;
+} 
+
+body .newsletter .card .button:hover {
+  background-color: #8db33a;
+  border-color: #8db33a;
+  color: black;
 }
 
 body .ad .card {
@@ -453,6 +484,16 @@ body .post-list-image-container {
   width: 266px;
   display: flex;
   align-items: center;
+}
+
+body .post-list-image-container-mobile {
+  width: 132px;
+  display: flex;
+  align-items: center;
+}
+
+body .mobile-post-list-block {
+    
 }
 
 body .old-pubs .date {
@@ -574,6 +615,13 @@ body .circle-green {
 body .post-list-image {
   width: 262px !important;
   height: 175px !important;
+  object-fit: contain;
+}
+
+body .post-list-image-mobile {
+  width: 100% !important;
+  height: 100% !important;
+  position: left;
   object-fit: contain;
 }
 
@@ -722,7 +770,7 @@ body .article-text {
   font-family: 'Century Schoolbook L';
   font-size: 17px;
   color: #6e787f;
-  display: block;
+  display: 72px;
 }
 
 body .article-text-maxw {

@@ -2,6 +2,11 @@
 
 <div class="col-12 px-0">
   <div class="bg-white text-secondary px-4 py-2" style="border-radius: 1px; min-height: 135px;">
+	<div class="post-list-image-container-mobile">
+	  <a href="{{ include.url }}">
+	<img class="post-list-image-mobile p-2" src="{{ include.image }}">
+	    </a>
+    </div>
     <p class="blue"><strong><a class="blue" href="{{ include.url }}">{{ include.title }}</a></strong></p>
     <p class="mb-0 pb-1 underauthor"><small>por <span class="bg-darkblue">
       <a href="{{ incl_author.url }}">
