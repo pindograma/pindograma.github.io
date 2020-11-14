@@ -45,8 +45,8 @@ refid: prefeitas-viaveis
 <p><img src="/assets/post_images/prefeitas-viaveis_files/figure-html/unnamed-chunk-3-1.png" width="864" /></p>
 <p>Por todo o país, 654 prefeitas foram eleitas em 2012 e 640 em 2016. Apesar de mais campanhas de conscientização sobre os <a href="https://www.oxfam.org.br/blog/falta-de-representatividade/">efeitos positivos</a> de representatividade, as eleições de 2020 não parecem ser muito diferentes de anos anteriores em relação ao seu potencial de aumentar a presença de grupos diversos em prefeituras pelo país.</p>
 <hr />
-<p><strong>Dados usados na matéria</strong>: Resultados de Eleições (Tribunal Superior Eleitoral/Cepespdata); Candidatos Eleições 2020 (TSE).</p>
-<p><strong>Contribuíram com dados</strong>: Antonio Piltcher e Daniel Ferreira.</p>
+<p><strong>Dados usados na matéria</strong>: Resultados de Eleições (Tribunal Superior Eleitoral/Cepespdata); Candidatos Eleições 2020 (TSE); Resultados de Pesquisas Eleitorais (<i>Pindograma</i>).</p>
+<p><strong>Contribuíram com dados</strong>: Antonio Piltcher, Daniel Ferreira e Pedro Fonseca.</p>
 <p><strong>Créditos da imagem</strong>: Agência Brasil.</p>
 <p>Para reproduzir os números da matéria, o código pode ser encontrado <a href="https://github.com/pindograma/materias/blob/master/2020-11-13-prefeitas-viaveis/prefeitas-viaveis.Rmd">aqui</a>.</p>
 </div>
