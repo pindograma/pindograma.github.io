@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Voto de classe é a regra nas maiores cidades brasileiras"
-subtitle: "Em cidades maiores e mais desiguais, renda pesa mais no voto"
-description: "Em cidades maiores e mais desiguais, renda pesa mais no voto"
+subtitle: "Em cidades maiores e mais desiguais, renda pesa mais no voto; Petismo tem pouca influência sobre o voto de classe"
+description: "Em cidades maiores e mais desiguais, renda pesa mais no voto; Petismo tem pouca influência sobre o voto de classe"
 author: daniel
 image: /assets/post_images/rendavoto.jpg
 date: 2020-11-15
