@@ -1,0 +1,249 @@
+---
+permalink: /mapa
+---
+
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Extrude polygons for 3D indoor mapping</title>
+		<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+		<script src="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.js"></script>
+		<link href="https://api.mapbox.com/mapbox-gl-js/v1.12.0/mapbox-gl.css" rel="stylesheet" />
+<style>
+body { margin: 0; padding: 0; }
+#map { position: absolute; top: 0; bottom: 0; width: 100%; }
+
+#menu {
+	background: #fff;
+	position: absolute;
+	z-index: 1;
+	top: 10px;
+	right: 10px;
+	border-radius: 3px;
+	width: 120px;
+	border: 1px solid rgba(0, 0, 0, 0.4);
+	font-family: 'Open Sans', sans-serif;
+}
+
+#menu a {
+	font-size: 13px;
+	color: #404040;
+	display: block;
+	margin: 0;
+	padding: 0;
+	padding: 10px;
+	text-decoration: none;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.25);
+	text-align: center;
+}
+
+#menu a:last-child {
+	border: none;
+}
+
+#menu a:hover {
+	background-color: #f8f8f8;
+	color: #404040;
+}
+
+#menu a.active {
+	background-color: #3887be;
+	color: #ffffff;
+}
+
+#menu a.active:hover {
+	background: #3074a4;
+}
+</style>
+	</head>
+
+	<body>
+		<nav id="menu"></nav>
+
+		<div id="map"></div>
+		<script>
+			mapboxgl.accessToken = 'pk.eyJ1IjoidGhlaW9zdHJlYW0iLCJhIjoiY2poMWlic253MDM2ajJ3cHRqZmdkb3BubSJ9.DJKemo6gfuKneGtLbIMvrA'
+			var map = new mapboxgl.Map({
+				container: 'map',
+				style: 'mapbox://styles/theiostream/ckhmxd10p0bj519o9egmm8wbn',
+				center: [-46.625, -23.533],
+				zoom: 11,
+				minZoom: 11,
+				maxBounds: [
+					[-46.83, -24.007],
+					[-46.364, -23.34]
+				]
+			});
+
+			map.on('load', function () {
+				var layers = map.getStyle().layers;
+				var firstSymbolId;
+				for (var i = 0; i < layers.length; i++) {
+					console.log(layers[i].id)
+					if (layers[i].type === 'symbol') {
+						firstSymbolId = layers[i].id;
+						break;
+					}
+				}
+				firstSymbolId = ''
+
+				map.addSource('saopaulo', {
+					type: 'vector',
+					url: 'mapbox://theiostream.2wdyl0kg'
+				})
+
+				map.addLayer({
+					id: 'saopaulo_boulos',
+					type: 'fill',
+					source: 'saopaulo',
+					'source-layer': 'sp20_all-baxcs6',
+					layout: {
+						visibility: 'visible'
+					},
+					paint: {
+						'fill-color': {
+							property: 'cand_50',
+							stops: [
+								[0.12, '#ffffff'],
+								[0.21, '#d27103']
+							]
+						},
+						'fill-opacity': .5
+					}
+				}, firstSymbolId)
+
+				map.addLayer({
+					id: 'saopaulo_covas',
+					type: 'fill',
+					source: 'saopaulo',
+					'source-layer': 'sp20_all-baxcs6',
+					layout: {
+						visibility: 'visible'
+					},
+					paint: {
+						'fill-color': {
+							property: 'cand_45',
+							stops: [
+								[0.20, '#ffffff'],
+								[0.35, '#6c82a0']
+							]
+						},
+						'fill-opacity': .5
+					}
+				}, firstSymbolId)
+				
+				map.addLayer({
+					id: 'saopaulo_tatto',
+					type: 'fill',
+					source: 'saopaulo',
+					'source-layer': 'sp20_all-baxcs6',
+					layout: {
+						visibility: 'visible'
+					},
+					paint: {
+						'fill-color': {
+							property: 'cand_13',
+							stops: [
+								[0, '#ffffff'],
+								[0.14, '#ff0000']
+							]
+						},
+						'fill-opacity': .5
+					}
+				}, firstSymbolId)
+				
+				map.addLayer({
+					id: 'saopaulo_russomanno',
+					type: 'fill',
+					source: 'saopaulo',
+					'source-layer': 'sp20_all-baxcs6',
+					layout: {
+						visibility: 'visible'
+					},
+					paint: {
+						'fill-color': {
+							property: 'cand_10',
+							stops: [
+								[0, '#ffffff'],
+								[0.11, '#8db33a']
+							]
+						},
+						'fill-opacity': .5
+					}
+				}, firstSymbolId)
+				
+				map.addLayer({
+					id: 'saopaulo_mamaefalei',
+					type: 'fill',
+					source: 'saopaulo',
+					'source-layer': 'sp20_all-baxcs6',
+					layout: {
+						visibility: 'visible'
+					},
+					paint: {
+						'fill-color': {
+							property: 'cand_51',
+							stops: [
+								[0, '#ffffff'],
+								[0.114, '#6c82a0']
+							]
+						},
+						'fill-opacity': .5
+					}
+				}, firstSymbolId)
+				
+				map.addLayer({
+					id: 'saopaulo_franca',
+					type: 'fill',
+					source: 'saopaulo',
+					'source-layer': 'sp20_all-baxcs6',
+					layout: {
+						visibility: 'visible'
+					},
+					paint: {
+						'fill-color': {
+							property: 'cand_40',
+							stops: [
+								[0.04, '#ffffff'],
+								[0.138, '#d27103']
+							]
+						},
+						'fill-opacity': .5
+					}
+				}, firstSymbolId)
+			})
+
+			var toggleableLayerIds = ['saopaulo_boulos', 'saopaulo_covas', 'saopaulo_tatto', 'saopaulo_franca', 'saopaulo_mamaefalei', 'saopaulo_russomanno'];
+			for (var i = 0; i < toggleableLayerIds.length; i++) {
+				var id = toggleableLayerIds[i];
+
+				var link = document.createElement('a');
+				link.href = '#';
+				link.className = 'active';
+				link.textContent = id;
+
+				link.onclick = function (e) {
+					var clickedLayer = this.textContent;
+					e.preventDefault();
+					e.stopPropagation();
+
+					var visibility = map.getLayoutProperty(clickedLayer, 'visibility');
+
+					// toggle layer visibility by changing the layout object's visibility property
+					if (visibility === 'visible') {
+						map.setLayoutProperty(clickedLayer, 'visibility', 'none');
+						this.className = '';
+					} else {
+						this.className = 'active';
+						map.setLayoutProperty(clickedLayer, 'visibility', 'visible');
+					}
+				};
+
+				var layers = document.getElementById('menu');
+				layers.appendChild(link);
+			}
+		</script>
+
+	</body>
+</html>
