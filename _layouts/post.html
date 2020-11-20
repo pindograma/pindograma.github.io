@@ -14,25 +14,17 @@ layout: default
             <h1 class="article-title">{{ page.title }}</h1>
             <hr class="green-separator"/>
             <h5 class="article-undertitle undertitle darkgray">{{ page.subtitle }}</h5>
-            <h5 class="mt-4 underauthor">POR {{ author.name | upcase }} &bull; {{ page.date | date: "%d/%m/%Y" }}</h5>
+            <h5 class="mt-4 underauthor">
+                POR <a href="{{ author.url }}" style="color:#6c82a0; text-decoration:underline;">{{ author.name | upcase }}</a> &bull; {{ page.date | date: "%d/%m/%Y" }}
+            </h5>
           </div>
-        </div>
-        <div class="article-image-container">
-          <img src="{{ page.image }}" class="article-image mx-auto" />
         </div>
       </div>
       <div class="row mt-2 px-5">
-        <div class="col-2">
-          <div class="sticky-top d-flex flex-column justify-content-center align-items-center pt-5">
-            <a href="https://twitter.com/intent/tweet?counturl=https%3A%2F%2Fpindograma.com.br{{ page.url | url_encode }}&text={{ page.title | url_encode }}&url=https%3A%2F%2Fpindograma.com.br{{ page.url | url_encode }}"><img class="share-img" src="/assets/images/twt_share.svg" /></a>
-            <a href="whatsapp://send?text={{ page.title | url_encode }}: https%3A%2F%2Fpindograma.com.br{{ page.url | url_encode }}"><img class="share-img" src="/assets/images/whatsapp_share.svg" /></a>
-            <a href="https://facebook.com/sharer/sharer.php?text={{ page.title | url_encode }}&u=https%3A%2F%2Fpindograma.com.br{{ page.url | url_encode }}"><img class="share-img" src="/assets/images/fb_share.svg" /></a>
-            <a href="https://linkedin.com/shareArticle?title={{ page.title | url_encode }}&url=https://pindograma.com.br{{ page.url }}&source=pindograma.com.br"><img class="share-img" src="/assets/images/linkedin_share.svg" /></a>
-            <a href="mailto:?subject=Artigo do Pindograma&body={{ page.title }}: https://pindograma.com.br{{ page.url }}"><img class="share-img" src="/assets/images/email_share.svg" /></a>
+        <div class="col-9 d-flex flex-column align-items-center">
+          <div class="article-image-container">
+            <img src="{{ page.image }}" class="article-image mx-auto" />
           </div>
-        </div>
-        
-        <div class="col-8 d-flex flex-column align-items-center">
           <div class="row my-5 article-text article-text-maxw">
             {{ content }}
             
@@ -41,9 +33,11 @@ layout: default
             <a href="https://www.instagram.com/pindograma/">Instagram</a>.]</i></p>
           </div>
 
-          <div class="row">
+          <div class="row" style="margin-bottom:80px;">
             <div class="bottom-author-photo">
-              <img src="{{ author.image }}" alt="foto do autor" class="rounded-circle author-img m-0">
+              <a href="{{ author.url }}">
+                <img src="{{ author.image }}" alt="foto do autor" class="rounded-circle author-img m-0">
+              </a>
             </div>
 
             <div class="bottom-author-info">
@@ -60,12 +54,21 @@ layout: default
             </div>
           </div>
         </div>
-        <div class="col-2"></div>
+        <div class="col-3">
+          <div class="sticky-top d-flex flex-column justify-content-center align-items-center pt-5">
+            <a href="https://twitter.com/intent/tweet?counturl=https%3A%2F%2Fpindograma.com.br{{ page.url | url_encode }}&text={{ page.title | url_encode }}&url=https%3A%2F%2Fpindograma.com.br{{ page.url | url_encode }}"><img class="share-img" src="/assets/images/twt_share.svg" /></a>
+            <a href="whatsapp://send?text={{ page.title | url_encode }}: https%3A%2F%2Fpindograma.com.br{{ page.url | url_encode }}"><img class="share-img" src="/assets/images/whatsapp_share.svg" /></a>
+            <a href="https://facebook.com/sharer/sharer.php?text={{ page.title | url_encode }}&u=https%3A%2F%2Fpindograma.com.br{{ page.url | url_encode }}"><img class="share-img" src="/assets/images/fb_share.svg" /></a>
+            <a href="https://linkedin.com/shareArticle?title={{ page.title | url_encode }}&url=https://pindograma.com.br{{ page.url }}&source=pindograma.com.br"><img class="share-img" src="/assets/images/linkedin_share.svg" /></a>
+            <a href="mailto:?subject=Artigo do Pindograma&body={{ page.title }}: https://pindograma.com.br{{ page.url }}"><img class="share-img" src="/assets/images/email_share.svg" /></a>
+            {% include newsletter-post-d.html %}
+          </div>
+        </div>
       </div>
 
       <div class="row mt-2 px-5">
         <div class="card mt-2 bg-blue p-5" style="min-height: 250px;width: 100%;border-radius: 1px;border:none;">
-          <h1 class="text-white" style="margin: -58px 0 0 0;">leia também</h1>
+          <h1 class="text-blue" style="margin: -58px 0 0 0; color:#6c82a0; font-family='Fantasque Sans Mono';">leia também</h1>
           <div class="card-body">
             <div class="row">
               {% for post in similar_posts limit:3 %}
@@ -75,6 +78,7 @@ layout: default
           </div>
         </div>
       </div>
+
   </div>
   </article>
 
@@ -117,11 +121,19 @@ layout: default
 
       <div class="row">
         <div class="col-12 mx-0 text-center" style="margin-bottom: -75px;">
-          <img src="{{ author.image }}" alt="foto do autor" class="rounded-circle author-img m-0">
+          <a href="{{ author.url }}">
+            <img src="{{ author.image }}" alt="foto do autor" class="rounded-circle author-img m-0">
+          </a>
         </div>
-        <div class="col-12 mx-0 px-0">
+        <div class="col-12 mx-0 px-0" style="pointer-events: none;">
           <div class="card bg-blue text-center m-0 blue pt-5" style="min-height:150px;width: 100%;border-radius: 1px;border:none;z-index:-1;">
-            <p class="pt-5 mobile-author-name"><small><i><u><strong>{{ author.name }}</strong></u></i></small></p>
+            <p class="pt-5 mobile-author-name">
+              <small>
+                  <a href="{{ author.url }}" style="color:#6c82a0; pointer-events:auto;">
+                    <i><u><strong>{{ author.name }}</strong></u></i>
+                  </a>
+              </small>
+            </p>
             <p class="mobile-author-name"><small>{{ author.bio }}.</small></p>
           </div>
           <div class="col-12 blue text-center">
