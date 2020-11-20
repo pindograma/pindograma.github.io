@@ -14,7 +14,7 @@ refid: ratingupdate
 <ul>
 <li><p>O erro médio dos institutos de pesquisa nas capitais este ano foi de <strong>4,2 pontos percentuais</strong> — próximo da margem de erro de 3 pontos percentuais que os institutos geralmente declaram. Foi um desempenho melhor que o de 2016 e parecido com o de 2012.</p></li>
 <li><p>Já no país como um todo, o erro médio foi de <strong>6,3 pontos percentuais</strong>. Foi um desempenho pior que o das duas eleições municipais anteriores.</p></li>
-<li><p>A maioria dos institutos de pesquisa mantiveram suas posições no nosso ranking. No entanto, algumas empresas tiveram um aumento sensível no seu desempenho em 2020.</p></li>
+<li><p>A maioria dos institutos de pesquisa mantiveram suas posições no nosso ranking.</p></li>
 </ul>
 <p>O ranking atualizado pode ser consultado no <a href="https://pindograma.com.br/ranking.html">link de sempre</a>, e o ranking anterior passa para o nosso <a href="/ranking-v1.html">arquivo</a>. Abaixo, mais detalhes sobre o que mudou nas pesquisas deste ano.</p>
 <div id="desempenho-das-pesquisas" class="section level5">
@@ -396,7 +396,7 @@ refid: ratingupdate
   
 </table></div>
 <p>Há duas hipóteses que podem explicar esse descompasso. A primeira é que nos anos anteriores, pesquisas de baixa qualidade publicadas no interior do país não chegavam à Internet e, por isso, não eram indexadas pelo <em>Pindograma</em>. Em 2020, pode ter sido mais fácil encontrar esses levantamentos, que podem ter aumentado a média de erro das pesquisas deste ano. A segunda hipótese é que, este ano, o eleitor das cidades do interior tenha demorado mais para decidir o seu voto, dificultando o trabalho das pesquisas no geral. Esta demora pode ser um reflexo das campanhas menos presenciais devido à pandemia.</p>
-<p>De toda forma, os efeitos da Covid sobre as pesquisas eleitorais não parece ter sido muito grande. Não houve um <a href="https://pindograma.com.br/2020/11/17/abstencoes.html">aumento da abstenção</a> a ponto de criar um abismo entre as intenções de voto e os resultados das eleições. Os institutos também parecem ter lidado bem com mudanças no perfil de quem responde as pesquisas eleitorais durante a pandemia — pesquisas feitas em ponto de fluxo, por exemplo, poderiam ter sido facilmente enviesadas, dado que menos pessoas estão saindo de casa. Mas não foi o que aconteceu.</p>
+<p>De toda forma, os efeitos da Covid sobre as pesquisas eleitorais não parecem ter sido muito grandes. Ao que tudo indica, não houve um <a href="https://pindograma.com.br/2020/11/17/abstencoes.html">aumento da abstenção</a> a ponto de criar um abismo entre as intenções de voto e os resultados das eleições. Os institutos também parecem ter lidado bem com mudanças no perfil de quem responde as pesquisas eleitorais durante a pandemia — pesquisas feitas em ponto de fluxo, por exemplo, poderiam ter sido facilmente enviesadas, dado que o perfil das pessoas que saem de casa nesse contexto não é necessariamente o mesmo do eleitorado como um todo. Mas não foi o que aconteceu.</p>
 <style>html {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
