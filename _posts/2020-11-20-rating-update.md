@@ -804,5 +804,6 @@ refid: ratingupdate
 <hr />
 <p><strong>Dados utilizados na matéria</strong>: Resultados de Pesquisas Eleitorais (<em>Pindograma</em>); Resultados de Eleições (Tribunal Superior Eleitoral).</p>
 <p><strong>Contribuiu com dados</strong>: Pedro Fonseca.</p>
+<p><strong>Crédito das imagens</strong>: Midia Ninja/Wikimedia Commons, Assembleia Legislativa do Estado de São Paulo</p>
 <p>Para reproduzir os números citados, os dados e o código podem ser encontrados <a href="https://github.com/pindograma/materias/blob/master/2020-11-20-rating-update/RatingUpdate.Rmd">aqui</a>.</p>
 </div>
