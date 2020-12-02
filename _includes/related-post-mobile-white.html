@@ -1,12 +1,24 @@
 {% assign incl_author = site.authors | where: 'short_name', include.author | first %}
+{% assign incl_second_author = site.authors | where: 'short_name', include.second_author | first %}
 
 <div class="col-12 px-0">
   <div class="bg-white text-secondary px-4 py-2" style="border-radius: 1px; min-height: 135px;">
     <p class="blue"><strong><a class="blue" href="{{ include.url }}">{{ include.title }}</a></strong></p>
-    <p class="mb-0 pb-1 underauthor"><small>por <span class="bg-darkblue">
-      <a href="{{ incl_author.url }}">
-	<span class="text-white px-1">{{ incl_author.name }}</span>
+    <p class="mb-0 pb-1 underauthor"><small>
+      por 
+      <span class="bg-darkblue">
+        <a href="{{ incl_author.url }}">
+	      <span class="text-white px-1">{{ incl_author.name }}</span>
+        </a>
+    </span>
+    {% if include.second_author %} 
+    &nbsp;e  
+    <span class="bg-darkblue">
+      <a href="{{ incl_second_author.url }}">
+        <span class="text-white px-1">{{ incl_second_author.name }}</span>
       </a>
-    </span></small></p>
+    </span>
+    {% endif %}
+    </small></p>
   </div>
 </div>
