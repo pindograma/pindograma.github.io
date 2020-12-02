@@ -4,6 +4,7 @@ title: "Abstenção cresce em 2020, mas é mais baixa que o número oficial"
 subtitle: "Levando em conta distorções no cadastro eleitoral, abstenção é de aproximadamente 20%"
 description: "Levando em conta distorções no cadastro eleitoral, abstenção é de aproximadamente 20%"
 author: pedrog
+second_author: antoniopiltcher
 image: /assets/post_images/abstencoes.jpg
 date: 2020-11-17
 refid: abstencoes
