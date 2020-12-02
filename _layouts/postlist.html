@@ -173,9 +173,9 @@ layout: default
         {% for post in site.posts limit:30 %}
           {% assign mod = forloop.index | modulo: 2 %}
           {% if mod == 0 %}
-            {% include post-1.html title=post.title author=post.author url=post.url image=post.image date=post.date %}
+            {% include post-1.html title=post.title author=post.author second_author=post.second_author url=post.url image=post.image date=post.date %}
           {% else %}
-            {% include post-2.html title=post.title author=post.author url=post.url image=post.image date=post.date %}
+            {% include post-2.html title=post.title author=post.author second_author=post.second_author url=post.url image=post.image date=post.date %}
           {% endif %}
         {% endfor %}
       </div>
