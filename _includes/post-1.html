@@ -15,10 +15,12 @@
 	      <a href="{{ incl_author.url }}">
 	        <span class="old-author">{{ incl_author.name }}</span>
 	      </a>
+          {% if second_author %}
            e
-	      <a href="{{ sec_author.url }}">
-	        <span class="old-author">{{ sec_author.name }}</span>
+	      <a href="{{ second_author.url }}">
+	        <span class="old-author">{{ second_author.name }}</span>
 	      </a>
+          {% endif %}
 	    </p>
 	  </div>
 

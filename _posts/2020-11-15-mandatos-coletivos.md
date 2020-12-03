@@ -4,6 +4,7 @@ title: "O crescimento das candidaturas coletivas em 2020"
 subtitle: "Candidaturas coletivas estão em mais estados e em mais partidos"
 description: "Candidaturas coletivas estão em mais estados e em mais partidos"
 author: sophiac
+second_author: antoniopiltcher
 image: /assets/post_images/mandatos_coletivos2.jpg
 date: 2020-11-15
 refid: coletivas

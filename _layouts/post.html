@@ -97,7 +97,7 @@ layout: default
           <div class="card-body">
             <div class="row">
               {% for post in similar_posts limit:3 %}
-                {% include related-post.html title=post.title author=post.author url=post.url image=post.image date=post.date %}
+                {% include related-post.html title=post.title author=post.author second_author=post.second_author url=post.url image=post.image date=post.date %}
               {% endfor %}
             </div>
           </div>
@@ -202,9 +202,9 @@ layout: default
           {% for post in similar_posts limit:3 %}
             {% assign mod = forloop.index | modulo: 2 %}
             {% if mod == 0 %}
-              {% include related-post-mobile.html title=post.title author=post.author url=post.url image=post.image date=post.date %}
+              {% include related-post-mobile.html title=post.title author=post.author second_author=post.second_author url=post.url image=post.image date=post.date %}
             {% else %}
-              {% include related-post-mobile-white.html title=post.title author=post.author url=post.url image=post.image date=post.date %}
+              {% include related-post-mobile-white.html title=post.title author=post.author second_author=post.second_author url=post.url image=post.image date=post.date %}
             {% endif %}
           {% endfor %}
         </div>
