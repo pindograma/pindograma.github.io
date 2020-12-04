@@ -6,7 +6,9 @@ layout: default
 {% assign secondary_post = site.posts | where: 'refid', site.data.metadata.secondary_post | first %}
 
 {% assign main_post_author = site.authors | where: 'short_name', main_post.author | first %}
+{% assign main_post_second_author = site.authors | where: 'short_name', main_post.second_author | first %}
 {% assign secondary_post_author = site.authors | where: 'short_name', secondary_post.author | first %}
+{% assign secondary_post_second_author = site.authors | where: 'short_name', secondary_post.second_author | first %}
 
 <section>
   <div class="pindograma-container p-0">
@@ -22,7 +24,16 @@ layout: default
             <div class="col-3 p-0 main-headline-container">
               <div class="card">
                 <h4 class="bigtitle">{{ main_post.title }}</h4>
-                <p class="undertitle small py-4">por <span class="author bg-orange text-white">{{ main_post_author.name }}</span></p>
+                <p class="undertitle small py-4">por 
+                  <span class="author bg-orange text-white">
+                    {{ main_post_author.name }}
+                  </span>
+                  {% if main_post_second_author %}<br>e 
+                  <span class="author bg-orange text-white">
+                    {{ main_post_second_author.name }}
+                  </span>
+                  {% endif %}
+                </p>
                 <p class="undertitle small">{{ main_post.subtitle }}</p>
               </div>
             </div>
@@ -32,7 +43,16 @@ layout: default
             <div class="p-0 second-headline-container">
               <div class="card">
                 <h4 class="bigtitle">{{ secondary_post.title }}</h4>
-                <p class="undertitle small py-4">por <span class="author bg-green text-white">{{ secondary_post_author.name }}</span></p>
+                <p class="undertitle small py-4">por 
+                  <span class="author bg-green text-white">
+                      {{ secondary_post_author.name }}
+                  </span>
+                  {% if secondary_post_second_author %}<br>e 
+                  <span class="author bg-green text-white">
+                    {{ secondary_post_second_author.name }}
+                  </span>
+                  {% endif %}
+                </p>
                 <p class="undertitle small">{{ secondary_post.subtitle }}</p>
               </div>
             </div>
@@ -50,7 +70,17 @@ layout: default
               <img src="{{ main_post.image }}" class="main-article-image-small">
             </div>
             <h5 class="darkgray px-4 mobile-article-title bigtitle">{{ main_post.title }}</h5>
-            <p class="blue px-4 underauthor">por <span class="text-white bg-green mr-5 px-2">{{ main_post_author.name }}</span></p>
+            <p class="blue px-4 underauthor">por 
+              <span class="text-white bg-green mr-0 px-0">
+                {{ main_post_author.name }}
+              </span>
+              {% if main_post_second_author %}
+              &nbsp;e
+              <span class="text-white bg-green mr-0 px-0">
+                {{ main_post_second_author.name }}
+              </span>
+              {% endif %}
+            </p>
             <p class="undertitle small darkgray px-4">{{ main_post.subtitle }}</p>
           </a>
 
@@ -63,7 +93,17 @@ layout: default
               <img src="{{ secondary_post.image }}" class="main-article-image-small">
             </div>
             <h5 class="darkgray px-4 mobile-article-title bigtitle">{{ secondary_post.title }}</h5>
-            <p class="blue px-4 underauthor">por <span class="text-white bg-orange mr-5 px-2">{{ secondary_post_author.name }}</span></p>
+            <p class="blue px-4 underauthor">por 
+              <span class="text-white bg-orange mr-0 px-0">
+                {{ secondary_post_author.name }}
+              </span>
+              {% if secondary_post_second_author %}
+              &nbsp;e 
+              <span class="text-white bg-orange mr-0 px-0">
+                {{ secondary_post_second_author.name }}
+              </span>
+              {% endif %}
+            </p>
             <p class="undertitle small darkgray px-4">{{ secondary_post.subtitle }}</p>
           </a>
         </div>
@@ -153,9 +193,9 @@ layout: default
         {% for post in site.posts limit:30 %}
           {% assign mod = forloop.index | modulo: 2 %}
           {% if mod == 0 %}
-            {% include related-post-mobile.html title=post.title author=post.author url=post.url image=post.image date=post.date %}
+            {% include related-post-mobile.html title=post.title author=post.author second_author=post.second_author url=post.url image=post.image date=post.date %}
           {% else %}
-            {% include related-post-mobile-white.html title=post.title author=post.author url=post.url image=post.image date=post.date %}
+            {% include related-post-mobile-white.html title=post.title author=post.author second_author=post.second_author url=post.url image=post.image date=post.date %}
           {% endif %}
         {% endfor %}
       </div>
@@ -173,9 +213,9 @@ layout: default
         {% for post in site.posts limit:30 %}
           {% assign mod = forloop.index | modulo: 2 %}
           {% if mod == 0 %}
-            {% include post-1.html title=post.title author=post.author url=post.url image=post.image date=post.date %}
+            {% include post-1.html title=post.title author=post.author second_author=post.second_author url=post.url image=post.image date=post.date %}
           {% else %}
-            {% include post-2.html title=post.title author=post.author url=post.url image=post.image date=post.date %}
+            {% include post-2.html title=post.title author=post.author second_author=post.second_author url=post.url image=post.image date=post.date %}
           {% endif %}
         {% endfor %}
       </div>

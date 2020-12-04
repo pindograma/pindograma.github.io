@@ -27,7 +27,9 @@ layout: default
 
       <div class="col-12 col-md-6 p-md-4 bg-white posts-author">
         <div class="row">
-          {% assign filtered_posts = site.posts | where: 'author', page.short_name %}
+          {% assign authored_posts = site.posts | where: 'author', page.short_name  %}
+          {% assign coauthored_posts = site.posts | where: 'second_author', page.short_name %}
+          {% assign filtered_posts = authored_posts | concat: coauthored_posts %}
           {% for post in filtered_posts %}
             {% include author-post.html url=post.url image=post.image title=post.title subtitle=post.subtitle %}
           {% endfor %}

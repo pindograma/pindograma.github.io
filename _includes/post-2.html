@@ -1,4 +1,6 @@
 {% assign incl_author = site.authors | where: 'short_name', include.author | first %}
+{% assign second_author = site.authors | where: 'short_name', include.second_author | first %}
+
 
 <article>
   <div class="row">
@@ -26,8 +28,14 @@
 	    
 	    <p class="undertitle small">por
 	      <a href="{{ incl_author.url }}">
-		<span class="old-author">{{ incl_author.name }}</span>
+	    	<span class="old-author">{{ incl_author.name }}</span>
 	      </a>
+          {% if second_author %}
+           e 
+	      <a href="{{ second_author.url }}">
+	        <span class="old-author">{{ second_author.name }}</span>
+	      </a>
+          {% endif %}
 	    </p>
           </div>
         </div>
