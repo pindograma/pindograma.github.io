@@ -304,6 +304,12 @@ body .mobile-pheight {
   height: 16px;
 }
 
+body .favorite-undertitle {
+  font-size: 15px;
+  font-family: 'Fantasque Sans Mono';
+  font-weight: normal;
+}
+
 .mobile-author-name {
   font-family: 'Fantasque Sans Mono';
   font-size: 20px;
@@ -763,6 +769,12 @@ body .article-title {
 body .mobile-article-title {
   font-family: sans-serif;
   font-size: 24px;
+  font-weight: bold;
+}
+
+body .favorite-title {
+  font-family: sans-serif;
+  font-size: 18px;
   font-weight: bold;
 }
 
