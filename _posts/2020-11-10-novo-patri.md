@@ -4,6 +4,7 @@ title: "Partidos em números: Novo e Patriota"
 subtitle: "Gráficos e mapas para entender como os dois partidos da nova direita chegam nas eleições de 2020"
 description: "Gráficos e mapas para entender como os dois partidos da nova direita chegam nas eleições de 2020"
 author: fernandanunes
+second_author: antoniopiltcher
 image: /assets/post_images/novo-patri.jpg
 date: 2020-11-10
 refid: novo-patri
