@@ -36,6 +36,7 @@ refid: avanteptb
 <p><img src="/assets/post_images/avanteptb_files/figure-html/unnamed-chunk-10-1.png" width="864" /></p>
 <p>A proporção de dinheiro recebida pelo PTB do Fundo Partidário sempre foi uma das maiores até 2019, quando o partido teve uma diminuição de candidatos eleitos e a quantia caiu pela metade. Isso mostra que o partido está passando por dificuldades de manter sua posição de destaque no Congresso.</p>
 <p>O Avante é um partido pequeno, desde 2011 vem aumentando sua parcela do Fundo Partidário. De 2018 a 2019, o partido dobrou a quantidade de dinheiro recebida e agora recebe uma quantidade equivalente à do PTB, mesmo tendo um décimo de seus filiados.</p>
+<p>Para as eleições de 2020, o PTB recebeu R$46.658.777,07 do Fundo Eleitoral enquanto o Avante recebeu R$28.121.267,64.</p>
 <hr style='width:100%;'/>
 </div>
 <div id="eleições-2020" class="section level4">
