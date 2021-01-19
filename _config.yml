@@ -31,3 +31,6 @@ defaults:
       type: "pages"
     values:
       image: "/assets/images/default-cover.png"
+
+tag_page_layout: section
+tag_page_dir: section
