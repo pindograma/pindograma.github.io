@@ -7,6 +7,8 @@ author: daniel
 image: /assets/post_images/policiais_parana.png
 date: 2020-09-23
 refid: policiais
+seo:
+  type: NewsArticle
 ---
 
 <p>Segundo a Constituição Federal, “o militar, enquanto em serviço ativo, não pode estar filiado a partidos políticos”. Por isso, policiais militares só podem concorrer a cargos políticos se <a href="https://www.nexojornal.com.br/expresso/2018/06/04/Por-que-militares-ainda-n%C3%A3o-filiados-podem-se-candidatar-em-2018">deixarem ou pedirem licença da corporação</a>. No entanto, um levantamento do <em>Pindograma</em> mostrou que 212 policiais militares ativos no estado do Paraná se encontravam filiados a partidos políticos em agosto de 2020.</p>

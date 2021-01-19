@@ -7,6 +7,8 @@ author: joaogado
 image: /assets/post_images/russomanno.png
 date: 2020-10-14
 refid: russomanno
+seo:
+  type: NewsArticle
 ---
 
 <p>“Celso Russomanno lidera em São Paulo” –– essa manchete não é novidade para quem acompanha as eleições paulistanas. Na data de publicação desta matéria, nosso <a href="https://pindograma.shinyapps.io/agregador/">agregador de pesquisas</a> indica que ele tem 26% das intenções de voto. Nas últimas duas eleições municipais, Celso Russomanno (Republicanos) também liderou as pesquisas de intenção de voto em São Paulo por meses––mas logo antes da eleição, perdeu espaço para candidatos de partidos mais tradicionais.</p>

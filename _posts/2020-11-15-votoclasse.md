@@ -8,6 +8,8 @@ second_author: franciscojricci
 image: /assets/post_images/rendavoto.jpg
 date: 2020-11-15
 refid: votoclasse
+seo:
+  type: NewsArticle
 ---
 
 <p>Nenhuma eleição municipal nos últimos 12 anos <a href="https://pindograma.com.br/2020/10/28/vitoria.html">dividiu tanto os eleitores</a> de alta e baixa renda quanto a de Vitória (ES) em 2016. Entre os 17 locais de votação mais ricos da cidade, o então prefeito Luciano Rezende (PPS) levou, em média, 75% dos votos válidos no segundo turno. Já nos 17 locais de menor renda, o apresentador de tevê Amaro Neto (SD) – uma espécie de Datena capixaba – conquistou, em média, 72% dos eleitores.</p>

@@ -7,6 +7,8 @@ author: franciscojricci
 image: /assets/post_images/prefeitas.png
 date: 2020-09-16
 refid: prefeitas
+seo:
+  type: NewsArticle
 ---
 
 <p>As eleições municipais de 2020 podem ser importantes, não apenas para eleger mais mulheres, mas também para aumentar as chances de outras candidatas em eleições futuras. Quando uma cidade com até 200 mil habitantes elege uma prefeita que cursou ensino superior, futuras candidatas à Câmara dos Deputados passam a ter maiores chances de receberem votos naquela cidade. É o que indica o artigo <a href="https://www.scielo.br/scielo.php?script=sci_arttext&amp;pid=S1981-38212017000200203&amp;lng=pt&amp;nrm=iso&amp;tlng=pt">“Futuros impactos eleitorais de ter uma prefeita”</a>, publicado em 2017 na <em>Brazilian Political Science Review</em>.</p>

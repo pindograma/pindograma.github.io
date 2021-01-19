@@ -7,6 +7,8 @@ author: pedrog
 image: /assets/post_images/disenfranchisement2.png
 date: 2020-09-27
 refid: disenfranchisement
+seo:
+  type: NewsArticle
 ---
 
 <p>Entre 2008 e 2018, o recadastramento biométrico privou mais de um milhão de brasileiros entre 18 e 69 anos do direito ao voto, segundo levantamento do <em>Pindograma</em>. Essas pessoas tiveram seus títulos cancelados pelo Tribunal Superior Eleitoral (TSE) em pelo menos uma eleição nos últimos doze anos. O mesmo recadastramento também irá impactar as eleições em 124 cidades neste ano – e poderá impedir centenas de milhares de pessoas de votar em 2022.</p>

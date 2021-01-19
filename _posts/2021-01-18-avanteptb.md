@@ -8,6 +8,8 @@ second_author: antoniopiltcher
 image: /assets/post_images/avanteptb.jpg
 date: 2021-01-18
 refid: avanteptb
+seo:
+  type: NewsArticle
 ---
 
 <p>Esta edição do <strong>Partido em Números</strong> traz uma comparação de duas legendas que têm suas origens no trabalhismo do século XX: o Partido Trabalhista Brasileiro (PTB) e o Avante (antigo PTdoB).</p>

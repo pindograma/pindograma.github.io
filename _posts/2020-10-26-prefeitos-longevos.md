@@ -7,6 +7,8 @@ author: pedrog
 image: /assets/post_images/prefeitos-longevos.jpg
 date: 2020-10-26
 refid: prefeitos-longevos
+seo:
+  type: NewsArticle
 ---
 
 <p>Nas eleições de 2020, há 660 candidatos a prefeito que podem ser reeleitos uma quarta ou quinta vez desde 1996. Há a possibilidade de que quase 21 milhões de brasileiros — número maior do que a população do estado do Rio de Janeiro — continuem a ser governados por políticos que já passaram pelo menos 12 anos na liderança de seus municípios. Em geral, eles são homens, brancos e de partidos da centro-direita como MDB, PSD, PSDB e PP.</p>

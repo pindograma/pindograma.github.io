@@ -7,6 +7,8 @@ author: daniel
 image: /assets/post_images/pesquisas_analise.jpg
 date: 2020-12-11
 refid: pesquisas_analise
+seo:
+  type: NewsArticle
 ---
 
 <p>Após um primeiro turno <a href="https://pindograma.com.br/2020/11/20/rating-update.html">sem grandes surpresas</a> no desempenho das pesquisas eleitorais, os institutos de pesquisa brasileiros têm sido alvos de críticas neste segundo turno. O Poder360 <a href="https://www.poder360.com.br/eleicoes/resultados-das-pesquisas-do-ibope-nao-se-confirmaram-em-15-de-26-cidades/">noticiou</a> que “resultados das pesquisas do Ibope não se confirmaram em 15 de 26 cidades”. À <a href="https://www.cartacapital.com.br/politica/fora-da-curva-porque-as-pesquisas-passaram-longe-dos-resultados/">Carta Capital</a>, o cientista político Jairo Pimentel classificou os resultados como “fora da curva” para pior. Jornalistas até <a href="https://twitter.com/fzambeli/status/1333384862208827393">fizeram</a> <a href="https://twitter.com/ceciliadolago/status/1333230138398552065">piada</a> com uma <a href="https://piaui.folha.uol.com.br/lupa/2020/11/29/verificamos-pesquisa-datafolha-porto-alegre-2o-turno/">pesquisa falsa</a> ter chegado mais perto do resultado que qualquer outra em Porto Alegre.</p>

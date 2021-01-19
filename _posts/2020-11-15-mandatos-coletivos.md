@@ -7,6 +7,8 @@ author: sophiac
 image: /assets/post_images/mandatos_coletivos2.jpg
 date: 2020-11-15
 refid: coletivas
+seo:
+  type: NewsArticle
 ---
 
 <p>Em meio a pedidos de <a href="https://pindograma.com.br/2020/10/02/jovens.html">renovação</a> e mudança na política brasileira, as candidaturas coletivas aparecem como uma perspectiva de mudança na condução do processo político: esse tipo de candidatura está mais presente que nunca nas eleições de 2020. Embora sejam majoritariamente de esquerda e localizadas no Sudeste, este ano elas também têm se espalhado para outras regiões — caso da <a href="https://facebook.com/111831053970371">Bancada Diversas (PSOL-BA)</a> — e para partidos de centro e de direita, a exemplo do <a href="https://m.facebook.com/ProjetoSouIgreja/">Coletivo Igreja (PL-PE)</a>.</p>

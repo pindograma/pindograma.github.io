@@ -6,6 +6,8 @@ description: "Entenda por que algumas pesquisas acertam mais do que outras – e
 author: daniel
 image: /assets/post_images/pesquisas.jpg
 date: 2020-09-07
+seo:
+  type: NewsArticle
 ---
 
 <p>É óbvio, para quase todo mundo, que algumas pesquisas eleitorais acertam mais do que outras. Menos óbvio é saber em quais pesquisas confiar. É justamente essa pergunta que o <em>Pindograma</em> vem buscando responder desde a sua concepção – e aqui, trazemos o que você precisa saber para identificar o que torna algumas pesquisas mais distantes da realidade do que outras.</p>

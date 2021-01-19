@@ -7,6 +7,8 @@ author: oscaromsn
 image: /assets/post_images/pesquisas_falsas.png
 date: 2020-09-07
 refid: realidade
+seo:
+  type: NewsArticle
 ---
 
 <p>Durante as últimas décadas, um grupo de cinco institutos de pesquisa falsificou, à custa do dinheiro público, cerca de cem pesquisas eleitorais por todo o interior de São Paulo.</p>

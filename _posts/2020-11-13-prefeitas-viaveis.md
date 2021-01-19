@@ -7,6 +7,8 @@ author: fernandanunes
 image: /assets/post_images/prefeitas-viaveis.jpg
 date: 2020-11-13
 refid: prefeitas-viaveis
+seo:
+  type: NewsArticle
 ---
 
 <p>As eleições municipais de 2020 tiveram um <a href="https://www.camara.leg.br/noticias/698770-candidaturas-femininas-crescem-em-2020-mas-ainda-nao-representam-a-populacao-brasileira/">recorde</a> de candidaturas femininas. Este ano, elas compõem <a href="https://www.gazetadopovo.com.br/eleicoes/2020/candidatas-mulheres-recorde-barreiras-participacao-feminina/">33,2%</a> do total: 182.818 candidatas disputam vereanças e prefeituras pelo país. Em 2016, elas representavam 32,79% do total.</p>
