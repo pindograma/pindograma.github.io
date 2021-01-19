@@ -13,59 +13,10 @@ layout: default
 <section>
   <div class="pindograma-container p-0">
     <div class="row mb-5 mx-0">
-      <div class="col-12 col-lg-6 col-xl-8 mx-0 mx-sm-2 mx-md-0 p-0 px-md-5">
-        <!-- MD/XL Main Articles -->
-        <div class="d-none d-sm-none d-md-block d-lg-none d-xl-block new-pubs">
-          <a class="row mb-5" style="display: flex; text-decoration: none;" href="{{ main_post.url }}">
-            <div class="col-9 px-0 first-headline-image-container">
-              <img class="headline-image" src="{{ main_post.image }}" />
-            </div>
-
-            <div class="col-3 p-0 main-headline-container">
-              <div class="card">
-                <h4 class="bigtitle">{{ main_post.title }}</h4>
-                <p class="undertitle small py-4">por 
-                  <span class="author bg-orange text-white">
-                    {{ main_post_author.name }}
-                  </span>
-                  {% if main_post.second_author %}<br>e 
-                  <span class="author bg-orange text-white">
-                    {{ main_post_second_author.name }}
-                  </span>
-                  {% endif %}
-                </p>
-                <p class="undertitle small">{{ main_post.subtitle }}</p>
-              </div>
-            </div>
-          </a>
-
-          <a style="display: flex; text-decoration: none;" href="{{ secondary_post.url }}" class="row mb-5 second-headline-parent-container">
-            <div class="p-0 second-headline-container">
-              <div class="card">
-                <h4 class="bigtitle">{{ secondary_post.title }}</h4>
-                <p class="undertitle small py-4">por 
-                  <span class="author bg-green text-white">
-                      {{ secondary_post_author.name }}
-                  </span>
-                  {% if secondary_post.second_author %}<br>e 
-                  <span class="author bg-green text-white">
-                    {{ secondary_post_second_author.name }}
-                  </span>
-                  {% endif %}
-                </p>
-                <p class="undertitle small">{{ secondary_post.subtitle }}</p>
-              </div>
-            </div>
-            
-            <div class="px-0 second-headline-image-container">
-              <img class="headline-image" src="{{ secondary_post.image }}" />
-            </div>
-          </a>
-        </div>
-
+      <div class="col-12 col-lg-6 mx-0 mx-sm-2 mx-md-0 p-0 px-md-5">
         <!-- XS/SM/LG Main Articles -->
-        <div class="d-block d-sm-block d-md-none d-lg-block d-xl-none index-mobile">
-          <a style="display: flex; text-decoration: none;" href="{{ main_post.url }}" class="row mx-0">
+        <div class="d-block d-md-flex d-lg-block index-mobile">
+          <a style="display: flex; text-decoration: none;" href="{{ main_post.url }}" class="row mx-0 mr-md-4 mx-lg-0">
             <div class="card-new">
               <img src="{{ main_post.image }}" class="main-article-image-small">
             </div>
@@ -84,11 +35,7 @@ layout: default
             <p class="undertitle small darkgray px-4">{{ main_post.subtitle }}</p>
           </a>
 
-          <a style="display: flex; text-decoration: none;" href="{{ secondary_post.url }}" class="row mx-0">
-            <div class="col-9"></div>
-            <div class="col-3 more-highlights px-0">
-              <hr/>
-            </div>
+          <a style="display: flex; text-decoration: none;" href="{{ secondary_post.url }}" class="row mx-0 ml-md-4 ml-lg-0 mt-5 mt-md-0 mt-lg-5">
             <div class="card-more-highlights">
               <img src="{{ secondary_post.image }}" class="main-article-image-small">
             </div>
@@ -111,7 +58,7 @@ layout: default
         <div class="d-block d-lg-none"><hr class="bg-orange" style="height: 1px;"></div>
       </div>
 
-      <div class="col-12 col-lg-6 col-xl-4 mx-0 mx-sm-2 mx-md-0 p-0 px-md-5">
+      <div class="col-12 col-lg-6 mx-0 mx-sm-2 mx-md-0 p-0 px-md-5">
         <!-- Desktop Graphics -->
         <div class="d-none d-md-flex d-lg-block fixed-cards">
           <div class="col-md-6 col-lg-12 mx-2 pt-4">
@@ -205,28 +152,17 @@ layout: default
         </div>
       </div>
     </div>
-
-    <!-- Desktop Ad -->
-    <div class="row add-card mx-0 d-none d-md-flex">
-      <div class="col-2 px-0 pt-3">
-        <hr/>
-      </div>
-      <div class="col-8 px-0">
-        <div class="card p-5 undertitle ad-container">
-          <p class="m-0">
-            Anuncie no <i>Pindograma</i>! Entre em contato com anuncios@pindograma.com.br.
-          </p>
-        </div>
-      </div>
-      <div class="col-2 px-0 pt-3">
-        <hr/>
-      </div>
-    </div>
-      
+    
     <!-- Mobile Newsletter -->
     <div class="row my-2 mx-0 p-0 d-block d-md-none">
       <div class="col p-0">
         {% include newsletter-mobile.html %}
+      </div>
+    </div>
+    
+    <div class="row my-2 mx-3 d-none d-md-block d-lg-none">
+      <div class="col">
+        {% include newsletter-desktop.html %}
       </div>
     </div>
       
@@ -245,7 +181,7 @@ layout: default
       </div>
     </div>
 
-      <!-- Desktop Posts -->
+    <!-- Desktop Posts -->
     <div class="row my-3 mx-0 d-none d-sm-flex">
       <div class="col-12 col-lg-9 old-pubs">
         <div class="yellow bg-white old-pubs-tag d-none d-md-block">
@@ -263,10 +199,12 @@ layout: default
           {% endif %}
         {% endfor %}
       </div>
-    
+      
       <!-- Desktop Newsletter -->
-      <div class="col col-lg-3 d-none d-md-block">
-        {% include newsletter-desktop.html %}
+      <div class="col col-lg-3 d-none d-lg-block">
+        <div class="position-sticky" style="top: 10px;">
+          {% include newsletter-desktop.html %}
+        </div>
       </div>
     </div>
   </div>
