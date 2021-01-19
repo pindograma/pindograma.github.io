@@ -7,6 +7,7 @@ author: pedrog
 image: /assets/post_images/reeleicao.jpg
 date: 2020-11-12
 refid: reeleicoes
+tags: eleicoes
 seo:
   type: NewsArticle
 ---

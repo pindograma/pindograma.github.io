@@ -6,6 +6,7 @@ description: "Entenda o que há de diferente no agregador do Pindograma"
 author: daniel
 image: /assets/post_images/agregador.png
 date: 2020-09-07
+tags: eleicoes
 seo:
   type: NewsArticle
 ---

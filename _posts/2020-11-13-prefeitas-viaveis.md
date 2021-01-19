@@ -7,6 +7,7 @@ author: fernandanunes
 image: /assets/post_images/prefeitas-viaveis.jpg
 date: 2020-11-13
 refid: prefeitas-viaveis
+tags: eleicoes
 seo:
   type: NewsArticle
 ---

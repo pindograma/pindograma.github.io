@@ -7,6 +7,7 @@ author: pedrog
 image: /assets/post_images/disenfranchisement2.png
 date: 2020-09-27
 refid: disenfranchisement
+tags: eleicoes
 seo:
   type: NewsArticle
 ---

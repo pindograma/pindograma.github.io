@@ -7,6 +7,7 @@ author: pedrog
 image: /assets/post_images/abstencoes.jpg
 date: 2020-11-17
 refid: abstencoes
+tags: eleicoes
 seo:
   type: NewsArticle
 ---

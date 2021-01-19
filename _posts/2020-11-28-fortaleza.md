@@ -7,6 +7,7 @@ author: franciscojricci
 image: /assets/post_images/fortaleza.jpg
 date: 2020-11-28
 refid: fortaleza
+tags: eleicoes
 seo:
   type: NewsArticle
 ---

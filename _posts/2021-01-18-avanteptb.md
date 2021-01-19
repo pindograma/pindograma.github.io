@@ -8,6 +8,7 @@ second_author: antoniopiltcher
 image: /assets/post_images/avanteptb.jpg
 date: 2021-01-18
 refid: avanteptb
+tags: partidos
 seo:
   type: NewsArticle
 ---

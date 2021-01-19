@@ -6,6 +6,7 @@ description: "PT e PSL dividem voto para deputado na periferia, enquanto PSOL e 
 author: daniel
 image: /assets/post_images/polarizacoes.png
 date: 2020-09-18
+tags: eleicoes
 refid: polarizacoes
 seo:
   type: NewsArticle

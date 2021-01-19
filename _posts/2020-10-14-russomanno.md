@@ -7,6 +7,7 @@ author: joaogado
 image: /assets/post_images/russomanno.png
 date: 2020-10-14
 refid: russomanno
+tags: eleicoes
 seo:
   type: NewsArticle
 ---

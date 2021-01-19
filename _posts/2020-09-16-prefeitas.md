@@ -7,6 +7,7 @@ author: franciscojricci
 image: /assets/post_images/prefeitas.png
 date: 2020-09-16
 refid: prefeitas
+tags: eleicoes
 seo:
   type: NewsArticle
 ---

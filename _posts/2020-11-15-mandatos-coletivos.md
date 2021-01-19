@@ -7,6 +7,7 @@ author: sophiac
 image: /assets/post_images/mandatos_coletivos2.jpg
 date: 2020-11-15
 refid: coletivas
+tags: eleicoes
 seo:
   type: NewsArticle
 ---

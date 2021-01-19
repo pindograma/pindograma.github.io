@@ -8,6 +8,7 @@ second_author: antoniopiltcher
 image: /assets/post_images/novo-patri.jpg
 date: 2020-11-10
 refid: novo-patri
+tags: partidos
 seo:
   type: NewsArticle
 ---

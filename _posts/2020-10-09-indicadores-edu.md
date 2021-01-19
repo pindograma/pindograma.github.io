@@ -7,6 +7,7 @@ author: antoniopiltcher
 image: /assets/post_images/educacao_brasil.png
 date: 2020-10-09
 refid: indicadores-edu
+tags: politica
 seo:
   type: NewsArticle
 ---

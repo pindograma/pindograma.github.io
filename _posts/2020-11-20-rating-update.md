@@ -7,6 +7,7 @@ author: daniel
 image: /assets/post_images/ratingupdate.jpg
 date: 2020-11-20
 refid: ratingupdate
+tags: eleicoes
 seo:
   type: NewsArticle
 ---

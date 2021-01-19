@@ -7,6 +7,7 @@ author: pedrog
 image: /assets/post_images/prefeitos-longevos.jpg
 date: 2020-10-26
 refid: prefeitos-longevos
+tags: eleicoes
 seo:
   type: NewsArticle
 ---

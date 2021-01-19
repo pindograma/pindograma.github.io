@@ -6,6 +6,7 @@ description: "Entenda por que algumas pesquisas acertam mais do que outras – e
 author: daniel
 image: /assets/post_images/pesquisas.jpg
 date: 2020-09-07
+tags: eleicoes
 seo:
   type: NewsArticle
 ---

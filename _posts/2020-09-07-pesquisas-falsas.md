@@ -7,6 +7,7 @@ author: oscaromsn
 image: /assets/post_images/pesquisas_falsas.png
 date: 2020-09-07
 refid: realidade
+tags: eleicoes
 seo:
   type: NewsArticle
 ---

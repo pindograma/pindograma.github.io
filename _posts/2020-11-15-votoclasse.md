@@ -8,6 +8,7 @@ second_author: franciscojricci
 image: /assets/post_images/rendavoto.jpg
 date: 2020-11-15
 refid: votoclasse
+tags: eleicoes
 seo:
   type: NewsArticle
 ---

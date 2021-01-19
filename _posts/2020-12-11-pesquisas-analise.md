@@ -7,6 +7,7 @@ author: daniel
 image: /assets/post_images/pesquisas_analise.jpg
 date: 2020-12-11
 refid: pesquisas_analise
+tags: politica eleicoes
 seo:
   type: NewsArticle
 ---

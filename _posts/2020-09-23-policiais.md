@@ -7,6 +7,7 @@ author: daniel
 image: /assets/post_images/policiais_parana.png
 date: 2020-09-23
 refid: policiais
+tags: politica
 seo:
   type: NewsArticle
 ---
