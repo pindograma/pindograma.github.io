@@ -35,6 +35,24 @@
 
     {% seo %}
 
+    {% if layout.class == "post" %}
+      <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [{
+            "@type": "ListItem",
+            "position": 1,
+            "name": {{ site.data.metadata.tags[page.tags[0]] }},
+            "item": "https://pindograma.com.br/section/{{ page.tags[0] }}"
+          }, {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "{{ page.title }}"
+          }]}
+      </script>
+    {% endif %}
+
     {% if page.quiz == true %}
       <link rel="stylesheet" href="/assets/css/newsquiz.css?v=1" />
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
