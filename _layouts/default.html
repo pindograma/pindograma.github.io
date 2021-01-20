@@ -35,6 +35,24 @@
 
     {% seo %}
 
+    {% if layout.class == "post" %}
+      <script type="application/ld+json">
+        {
+          "@context": "https://schema.org",
+          "@type": "BreadcrumbList",
+          "itemListElement": [{
+            "@type": "ListItem",
+            "position": 1,
+            "name": {{ site.data.metadata.tags[page.tags[0]] }},
+            "item": "https://pindograma.com.br/section/{{ page.tags[0] }}"
+          }, {
+            "@type": "ListItem",
+            "position": 2,
+            "name": "{{ page.title }}"
+          }]}
+      </script>
+    {% endif %}
+
     {% if page.quiz == true %}
       <link rel="stylesheet" href="/assets/css/newsquiz.css?v=1" />
       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -64,7 +82,7 @@
 
   <body>
     <header class="d-none d-md-block">
-      <div class="container-fluid">
+      <div class="container-xl">
         <div class="row mb-5">
           <div class="col-auto pl-5 logo-container">
             <a href="/">
@@ -72,11 +90,13 @@
             </a>
           </div>
           <div class="col pr-0 mr-0">
-            <div class="menu mr-5 pr-4">
-              <nav class="main-menu">
+            <div class="mr-5 pr-4 h-100">
+              <nav class="main-menu h-100 d-flex align-items-center justify-content-end">
                 <ul>
-                  <li><a href="/" aria-current="page">início</a></li>
-                  <li><a href="/about">sobre</a></li>
+                  <li><a href="/section/politica">política</a></li>
+                  <li><a href="/section/eleicoes">eleições</a></li>
+                  <li><a href="/section/partidos">partidos em números</a></li>
+                  <li><a href="https://pindograma.shinyapps.io/agregador">pesquisas eleitorais</a></li>
                 </ul>
               </nav>
             </div>
@@ -100,9 +120,13 @@
           <div class="col px-0">
             <div class="mobile-menu">
               <nav class="mobile-main-menu">
-                <ul class="px-0 mobile-menu">
-                  <li><a href="/" aria-current="page">início</a></li>
-                  <li><a href="/about/">sobre</a></li>
+                <ul class="px-0 mobile-menu mb-0">
+                  <li><a href="/section/politica">política</a></li>
+                  <li><a href="/section/eleicoes">eleições</a></li>
+                </ul>
+                <ul class="px-0 mobile-menu header-buttons-mt">
+                  <li><a href="/section/partidos">partidos em números</a></li>
+                  <li><a href="https://pindograma.shinyapps.io/agregador">pesquisas eleitorais</a></li>
                 </ul>
               </nav>
             </div>
@@ -114,7 +138,7 @@
     {{ content }}
 
     <footer>
-      <div class="container-fluid">
+      <div class="container-xl">
         <div class="row social">
           <div class="col-sm-2 col-md-3 d-xs-none d-sm-block d-md-none"></div>
           <div class="col-8 col-xs-8 col-sm-5 col-md-4 col-l-2">

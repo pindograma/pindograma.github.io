@@ -1,0 +1,44 @@
+---
+layout: default
+---
+
+{% include collecttags.html %}
+
+<section class="section">
+  <div class="container-xl">
+    <div class="row d-block d-md-none">
+      <div class="col-12 px-sm-5 underauthor text-center">
+        <div class="section-mobile-header">{{ site.data.metadata.tags[page.tag] }}</div>
+      </div>
+    </div>
+
+    <div class="row px-sm-5">
+      <div class="d-none d-md-block card card-blue-author"></div>
+      <div class="col-1"></div>
+
+      <div class="col-12 col-md-8 col-lg-7 p-md-4 bg-white posts-author">
+        <div class="row">
+          {% for post in site.tags[page.tag] %}
+            {% include author-post.html url=post.url image=post.image title=post.title subtitle=post.subtitle %}
+          {% endfor %}
+        </div>
+      </div>
+
+      <div class="col-12 col-md-3 col-lg-4 about-author d-none d-md-block">
+        <div class="row">
+          <div class="col-12 text-center">
+            <h2 class="blue">{{ site.data.metadata.tags[page.tag] }}</h2>
+          </div>
+        </div>
+        
+        <div class="row my-3" style="position: absolute; top: 300px;">
+          <div class="col-12 pl-0">
+            {% include newsletter-desktop.html %}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div style="clear:both"></div>
+</section>

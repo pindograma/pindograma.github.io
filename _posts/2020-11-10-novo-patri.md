@@ -8,6 +8,9 @@ second_author: antoniopiltcher
 image: /assets/post_images/novo-patri.jpg
 date: 2020-11-10
 refid: novo-patri
+tags: partidos
+seo:
+  type: NewsArticle
 ---
 
 <p>Nesta edição da série <strong>Partidos em Números</strong>, o <em>Pindograma</em> traz dois partidos da “nova direita” brasileira. Ambos ganharam destaque nos últimos anos, mas têm diferenças significativas entre si: o Partido Novo e o Patriota.</p>

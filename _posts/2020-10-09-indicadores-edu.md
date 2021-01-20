@@ -7,6 +7,9 @@ author: antoniopiltcher
 image: /assets/post_images/educacao_brasil.png
 date: 2020-10-09
 refid: indicadores-edu
+tags: politica
+seo:
+  type: NewsArticle
 ---
 <p>Quando são publicados resultados de exames de educação, é comum ouvir que o desempenho do Brasil deixa a desejar frente ao “alto” percentual do PIB investido em educação no país. Seja em <a href="https://www.gazetadopovo.com.br/educacao/peru-e-chile-gastam-menos-em-educacao-do-que-o-brasil-e-eles-alcancam-as-melhores-notas-5mo5nrw7yq9poa113h8ioj4r0/">matérias</a> de <a href="https://agenciabrasil.ebc.com.br/educacao/noticia/2018-07/brasil-gasta-6-do-pib-em-educacao-mas-desempenho-escolar-e-ruim">veículos</a> <a href="https://oglobo.globo.com/sociedade/educacao/percentual-do-pib-brasileiro-dedicado-educacao-maior-do-que-em-paises-desenvolvidos-22858629">tradicionais</a>, <a href="https://twitter.com/jairbolsonaro/status/1102502825660239872?s=20">tuítes</a> do Presidente da República ou até nas sugestões do mecanismo de busca do <em>Google</em>, a narrativa do gasto excessivo no setor da educação é predominante.</p>
 <div class="figure">

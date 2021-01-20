@@ -7,6 +7,9 @@ author: daniel
 image: /assets/post_images/ratingupdate.jpg
 date: 2020-11-20
 refid: ratingupdate
+tags: eleicoes
+seo:
+  type: NewsArticle
 ---
 
 <p>Desde seu lançamento, o <em>Pindograma</em> disponibiliza aos leitores <a href="https://pindograma.com.br/ranking.html">nosso ranking de institutos de pesquisa</a>. Com base em 2.644 pesquisas eleitorais publicadas a três semanas ou menos dos últimos quatro pleitos (2012 a 2018), construímos a primeira avaliação objetiva dos institutos de pesquisa brasileiros. Agora, com os resultados do primeiro turno das eleições de 2020 em mãos, chegou a hora de atualizar esta avaliação.</p>

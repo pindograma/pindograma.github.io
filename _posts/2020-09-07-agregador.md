@@ -6,6 +6,9 @@ description: "Entenda o que há de diferente no agregador do Pindograma"
 author: daniel
 image: /assets/post_images/agregador.png
 date: 2020-09-07
+tags: eleicoes
+seo:
+  type: NewsArticle
 ---
 
 <p>O princípio de um agregador de pesquisas eleitorais é simples: o consenso de várias pesquisas sobre as intenções de voto vale mais do que os resultados de uma única pesquisa. Em vez de se orientar por um único instituto – que pode ter vieses metodológicos ou produzir pesquisas de baixa qualidade – um agregador de pesquisas acumula o maior número de pesquisas eleitorais; coloca os resultados em um gráfico; e desenha uma linha de tendência que mostra, em média, o que dizem as diferentes pesquisas em conjunto.</p>

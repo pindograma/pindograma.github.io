@@ -6,7 +6,10 @@ description: "PT e PSL dividem voto para deputado na periferia, enquanto PSOL e 
 author: daniel
 image: /assets/post_images/polarizacoes.png
 date: 2020-09-18
+tags: eleicoes
 refid: polarizacoes
+seo:
+  type: NewsArticle
 ---
 
 <p>Na cidade de São Paulo, todas as classes sociais estão polarizadas politicamente. Nas eleições de 2018 para deputado estadual e federal, paulistanos de todos os grupos de renda se dividiram entre partidos alinhados à esquerda e à direita, e foram poucos os votos para as agremiações no centro do espectro político.</p>

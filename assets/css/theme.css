@@ -1,4 +1,5 @@
-/* (c) 2020 CincoNoveSeis Jornalismo Ltda. All rights reserved. */
+/* (c) 2020 CincoNoveSeis Jornalismo Ltda.
+ * All rights reserved. */
 
 .text-decoration-none {
   text-decoration: none !important;
@@ -10,6 +11,7 @@
 
 .pindograma-container {
   width: 100%;
+  max-width: 1120px;
   padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
@@ -103,12 +105,21 @@
 .main-menu ul,
 .main-menu li {
   list-style: none;
-  padding: 0;
-  margin: 0;
+}
+
+.main-menu ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 .main-menu li {
-  display: inline;
+  margin-left: 3px;
+
+  margin-top: auto;
+  margin-bottom: auto;
 }
 
 .green {
@@ -174,6 +185,7 @@
 header hr {
   background: #d27103;
   height: 1px;
+  margin-top: -20px;
 }
 
 .logo {
@@ -219,17 +231,11 @@ header hr {
   color: #6e787f;
 }
 
-.menu {
- text-align: right;
-}
-
 .main-menu a {
   background-color: #d27103;
   color: white !important;
   border: none;
   padding: 2px 20px;
-  margin-top: 80px;
-  margin-bottom: 15px;
   text-align: center;
   display: inline-block;
   font-size: 12px;
@@ -252,7 +258,7 @@ header hr {
   padding: 2px 20px;
   text-align: center;
   display: inline-block;
-  font-size: 12px;
+  font-size: 11px;
   width: 100%;
 
   font-family: 'Fantasque Sans Mono';
@@ -649,23 +655,6 @@ body .circle-blue {
   margin: -160px -40px;
 }
 
-body .newsletter-author .card {
-  border-color: #d27103;
-  border-radius: 0;
-}
-
-body .newsletter-author .card .title{
-  color: #d27103;
-  font-weight: 500;
-  font-size: 18px;
-}
-
-body .newsletter-author .card .sign-up{
-  color: #747e85;
-  font-weight: 300;
-  font-size: 36px;
-}
-
 body .green-separator {
   margin-left: 0px;
   border-color: #8db33a;
@@ -976,4 +965,16 @@ section .index-mobile .read-too {
   border-bottom:solid;	
   border-top:solid;	
   border-color:#6c82a0;	
+}
+
+.section-mobile-header {
+  border-color: #8db33a;
+  border-width: 3px;
+  border-style: solid;
+  color: #6c62a0;
+  font-weight: bold;
+}
+
+.header-buttons-mt {
+  margin-top: -2px;
 }

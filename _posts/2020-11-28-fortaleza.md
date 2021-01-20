@@ -7,6 +7,9 @@ author: franciscojricci
 image: /assets/post_images/fortaleza.jpg
 date: 2020-11-28
 refid: fortaleza
+tags: eleicoes
+seo:
+  type: NewsArticle
 ---
 
 <p>Após um primeiro turno contestado, José Sarto (PDT) foi o mais votado e agora enfrentará Capitão Wagner (PROS) no segundo turno pela prefeitura de Fortaleza. Os dois candidatos representam duas visões diferentes sobre os problemas locais, assim como antagonismos no âmbito da política nacional. Com base nos mapas abaixo, analisamos as votações no primeiro turno e as bases eleitorais destes candidatos no passado para entender melhor a eleição deste domingo.</p>

@@ -7,6 +7,9 @@ author: pedrog
 image: /assets/post_images/reeleicao.jpg
 date: 2020-11-12
 refid: reeleicoes
+tags: eleicoes
+seo:
+  type: NewsArticle
 ---
 
 <p>Desde as eleições de 2004, em média 57% dos prefeitos que concorreram à reeleição tiveram sucesso. Este ano, <a href="https://agenciabrasil.ebc.com.br/politica/noticia/2020-10/eleicoes-2020-mais-da-metade-dos-prefeitos-tentarao-reeleicao">61% dos prefeitos</a> apostam em suas chances para conquistar um segundo mandato seguido. Alguns até impressionam pela <a href="https://pindograma.com.br/2020/10/26/prefeitos-longevos.html">quantidade de vezes</a> que já exerceram o cargo.</p>

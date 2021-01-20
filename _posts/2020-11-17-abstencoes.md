@@ -7,6 +7,9 @@ author: pedrog
 image: /assets/post_images/abstencoes.jpg
 date: 2020-11-17
 refid: abstencoes
+tags: eleicoes
+seo:
+  type: NewsArticle
 ---
 
 <p>No primeiro turno das eleições de 2020, o número de eleitores que faltaram às urnas <a href="http://g1.globo.com/globo-news/videos/v/eleicao-municipal-de-2020-bate-recorde-de-abstencoes-no-pais/9029136/">chamou a atenção da mídia e de comentaristas políticos</a>. A abstenção noticiada foi de 23,1% — um aumento de 2,81 pontos percentuais em relação à última eleição.</p>
