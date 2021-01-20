@@ -655,23 +655,6 @@ body .circle-blue {
   margin: -160px -40px;
 }
 
-body .newsletter-author .card {
-  border-color: #d27103;
-  border-radius: 0;
-}
-
-body .newsletter-author .card .title{
-  color: #d27103;
-  font-weight: 500;
-  font-size: 18px;
-}
-
-body .newsletter-author .card .sign-up{
-  color: #747e85;
-  font-weight: 300;
-  font-size: 36px;
-}
-
 body .green-separator {
   margin-left: 0px;
   border-color: #8db33a;

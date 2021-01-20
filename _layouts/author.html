@@ -53,23 +53,9 @@ layout: default
         
         <hr class="separator"/>
         
-        <div class="row newsletter-author my-3">
-          <div class="col-12">
-            <div class="card" style="max-width: 300px;">
-              <div class="card-body">
-                <p class="title">newsletter</p>
-                <p class="sign-up">Inscreva-se...</p>
-                <p class="text-secondary small"> Para receber notificações no seu email sempre que novas notícias estiverem disponíveis!</p>
-                <p class="title mt-3 pt-3">digite seu email:</p>
-                <form action="https://pindograma.us17.list-manage.com/subscribe/post" method="POST">
-                  <input type="hidden" name="u" value="669555e1986fad91fabf8d796" />
-                  <input type="hidden" name="id" value="c2fd975134" />
-                  <input type="email" class="rounded w-100 py-4 input-orange" autocapitalize="off" name="MERGE0" id="MERGE0" size="30" value="" style="height:1px " />
-                  <input type="hidden" name="mc_signupsource" value="hosted" />
-                </form>
-                <p class="title" style="font-size: 12px;">(e pressione enter!)</p>
-              </div>
-            </div>
+        <div class="row my-3">
+          <div class="col-12 pl-0">
+            {% include newsletter-desktop.html %}
           </div>
         </div>
       </div>
