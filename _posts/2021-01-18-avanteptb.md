@@ -47,7 +47,7 @@ seo:
 <p><img src="/assets/post_images/avanteptb_files/figure-html/unnamed-chunk-11-1.png" width="864" /></p>
 <p><img src="/assets/post_images/avanteptb_files/figure-html/unnamed-chunk-12-1.png" width="864" /></p>
 <p>Em 2020, o PTB apresentou candidatos a prefeito em todos os estados menos Roraima. No entanto, a maioria se concentrou no Rio Grande do Sul, São Paulo e Minas Gerais. Nestes estados também se localizam a maioria dos municípios com prefeitos eleitos pelo partido.</p>
-<p>Já o Avante apresentou bem menos candidatos, concentrados em geral em Minas Gerais. Mato Grosso, Piauí e Rio Grande do Sul não tiveram nenhum candidato do Avante e outros 14 não terão nenhum prefeito da legenda nos próximos 4 anos.</p>
+<p>Já o Avante apresentou bem menos candidatos, concentrados em geral em Minas Gerais. Mato Grosso, Piauí e Rio Grande do Sul não tiveram nenhum candidato do Avante e outros 14 não terão nenhum prefeito da legenda nos próximos 4 anos. Apesar do sucesso limitado, o partido conseguiu eleger o primeiro prefeito de capital de sua história em Manaus, Davi Almeida.</p>
 <p><img src="/assets/post_images/avanteptb_files/figure-html/unnamed-chunk-13-1.png" width="960" /></p>
 <p><img src="/assets/post_images/avanteptb_files/figure-html/unnamed-chunk-14-1.png" width="960" /></p>
 <p>Ambos os partidos se coligaram com quase todos os outros partidos do país em pelo menos uma eleição em 2020. Devido a seu tamanho, o PTB coligou com muito mais que o Avante, mas a tradicional predominância do Centrão é regra para ambos.</p>
