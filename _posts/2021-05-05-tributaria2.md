@@ -15,11 +15,11 @@ seo:
 
 O mais novo capítulo na saga da reforma tributária foi escrito ontem no
 Congresso Nacional. O relator das três propostas que tramitavam até então no
-Legislativo, o deputado Aguinaldo Ribeiro (PP-PB), apresentou seu parecer
+Legislativo, deputado Aguinaldo Ribeiro (PP-PB), apresentou seu parecer
 sobre as medidas.
 
 O relatório, no entanto, não foi bem recebido pelo governo nem pelo presidente
-da Câmara Arthur Lira (PP-AL). O ministro Paulo Guedes e o líder do
+da Câmara, Arthur Lira (PP-AL). O ministro Paulo Guedes e o líder do
 governo na Câmara, Ricardo Barros (PP-PR), defendem que a reforma tributária
 seja aprovada [em quatro
 etapas](https://congressoemfoco.uol.com.br/economia/reforma-tributaria-apos-apresentacao-de-parecer-tramitacao-deve-ser-fatiada/),
@@ -38,7 +38,7 @@ fora" e "tem que ser aproveitado".
 
 O _Pindograma_ já tratou dos problemas do sistema tributário e das propostas
 para reformá-lo em outra
-[reportagem](https://pindograma.com.br/2021/02/13/tributaria.html). Mas para te
+[reportagem](https://pindograma.com.br/2021/02/13/tributaria.html). Para te
 ajudar a entender o que muda com o relatório de Ribeiro, voltamos ao tema.
 
 ##### O relatório de Aguinaldo Ribeiro
