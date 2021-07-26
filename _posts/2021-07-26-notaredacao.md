@@ -2,6 +2,7 @@
 layout: post
 title: "Nota da Redação: Uma Nova Fase do Pindograma"
 subtitle: "Pindograma deixa de publicar reportagens regularmente; cobertura retornará nas eleições de 2022"
+description: "Pindograma deixa de publicar reportagens regularmente; cobertura retornará nas eleições de 2022"
 author: daniel
 image: /assets/post_images/editorial.png
 date: 2021-07-26
