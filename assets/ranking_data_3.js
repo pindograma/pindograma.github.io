@@ -168,7 +168,7 @@ pindograma_pollster_data = [
     "grade": "B-"
   },
   {
-    "pretty_name": "Atlas Político",
+    "pretty_name": "AtlasIntel",
     "company_id": 19259002000128,
     "has_abep": "FALSE",
     "has_conre": "TRUE",
