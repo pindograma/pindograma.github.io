@@ -1638,7 +1638,7 @@ pindograma_pollster_data = [
     "grade": "A"
   },
   {
-    "pretty_name": "IPRI",
+    "pretty_name": "FSB Pesquisa",
     "company_id": 11077560000160,
     "has_abep": "FALSE",
     "has_conre": "FALSE",
