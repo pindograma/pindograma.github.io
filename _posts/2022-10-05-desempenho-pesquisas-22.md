@@ -552,8 +552,8 @@ institutos, mas, com base no histórico de acertos entre 2012 e 2020,
 melhores do que outros institutos <a
 href="https://pindograma.com.br/ranking.html">com bom
 histórico</a></strong>, como Quaest, Futura, MDA, entre outros.</p>
-<p>Este ano, está claro que, nas corridas mais recentes, Ipec/Ibope e
-Datafolha se diferenciaram muito pouco da concorrência:</p>
+<p>Este ano, está ainda mais claro que Ipec/Ibope e Datafolha se diferenciaram
+pouco da concorrência:</p>
 
 <div id="cqachoxldo" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 <style>html {
