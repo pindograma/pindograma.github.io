@@ -554,12 +554,13 @@ href="https://pindograma.com.br/ranking.html">com bom
 histórico</a></strong>, como Quaest, Futura, MDA, entre outros.</p>
 <p>Este ano, está claro que, nas corridas mais recentes, Ipec/Ibope e
 Datafolha se diferenciaram muito pouco da concorrência:</p>
-<div id="nelwdfruzl" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
+
+<div id="cqachoxldo" style="overflow-x:auto;overflow-y:auto;width:auto;height:auto;">
 <style>html {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Helvetica Neue', 'Fira Sans', 'Droid Sans', Arial, sans-serif;
 }
 
-#nelwdfruzl .gt_table {
+#cqachoxldo .gt_table {
   display: table;
   border-collapse: collapse;
   margin-left: auto;
@@ -584,7 +585,7 @@ Datafolha se diferenciaram muito pouco da concorrência:</p>
   border-left-color: #D3D3D3;
 }
 
-#nelwdfruzl .gt_heading {
+#cqachoxldo .gt_heading {
   background-color: #FFFFFF;
   text-align: center;
   border-bottom-color: #FFFFFF;
@@ -596,7 +597,7 @@ Datafolha se diferenciaram muito pouco da concorrência:</p>
   border-right-color: #D3D3D3;
 }
 
-#nelwdfruzl .gt_title {
+#cqachoxldo .gt_title {
   color: #333333;
   font-size: 125%;
   font-weight: initial;
@@ -608,7 +609,7 @@ Datafolha se diferenciaram muito pouco da concorrência:</p>
   border-bottom-width: 0;
 }
 
-#nelwdfruzl .gt_subtitle {
+#cqachoxldo .gt_subtitle {
   color: #333333;
   font-size: 85%;
   font-weight: initial;
@@ -620,13 +621,13 @@ Datafolha se diferenciaram muito pouco da concorrência:</p>
   border-top-width: 0;
 }
 
-#nelwdfruzl .gt_bottom_border {
+#cqachoxldo .gt_bottom_border {
   border-bottom-style: #ffffff;
   border-bottom-width: 2px;
   border-bottom-color: #D3D3D3;
 }
 
-#nelwdfruzl .gt_col_headings {
+#cqachoxldo .gt_col_headings {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #FFFFFF;
@@ -641,7 +642,7 @@ Datafolha se diferenciaram muito pouco da concorrência:</p>
   border-right-color: #D3D3D3;
 }
 
-#nelwdfruzl .gt_col_heading {
+#cqachoxldo .gt_col_heading {
   color: #FFFFFF;
   background-color: #D27103;
   font-size: 100%;
@@ -661,7 +662,7 @@ Datafolha se diferenciaram muito pouco da concorrência:</p>
   overflow-x: hidden;
 }
 
-#nelwdfruzl .gt_column_spanner_outer {
+#cqachoxldo .gt_column_spanner_outer {
   color: #FFFFFF;
   background-color: #D27103;
   font-size: 100%;
@@ -673,15 +674,15 @@ Datafolha se diferenciaram muito pouco da concorrência:</p>
   padding-right: 4px;
 }
 
-#nelwdfruzl .gt_column_spanner_outer:first-child {
+#cqachoxldo .gt_column_spanner_outer:first-child {
   padding-left: 0;
 }
 
-#nelwdfruzl .gt_column_spanner_outer:last-child {
+#cqachoxldo .gt_column_spanner_outer:last-child {
   padding-right: 0;
 }
 
-#nelwdfruzl .gt_column_spanner {
+#cqachoxldo .gt_column_spanner {
   border-bottom-style: solid;
   border-bottom-width: 2px;
   border-bottom-color: #FFFFFF;
@@ -693,7 +694,7 @@ Datafolha se diferenciaram muito pouco da concorrência:</p>
   width: 100%;
 }
 
-#nelwdfruzl .gt_group_heading {
+#cqachoxldo .gt_group_heading {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -718,7 +719,7 @@ Datafolha se diferenciaram muito pouco da concorrência:</p>
   vertical-align: middle;
 }
 
-#nelwdfruzl .gt_empty_group_heading {
+#cqachoxldo .gt_empty_group_heading {
   padding: 0.5px;
   color: #333333;
   background-color: #FFFFFF;
@@ -733,15 +734,15 @@ Datafolha se diferenciaram muito pouco da concorrência:</p>
   vertical-align: middle;
 }
 
-#nelwdfruzl .gt_from_md > :first-child {
+#cqachoxldo .gt_from_md > :first-child {
   margin-top: 0;
 }
 
-#nelwdfruzl .gt_from_md > :last-child {
+#cqachoxldo .gt_from_md > :last-child {
   margin-bottom: 0;
 }
 
-#nelwdfruzl .gt_row {
+#cqachoxldo .gt_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -760,7 +761,7 @@ Datafolha se diferenciaram muito pouco da concorrência:</p>
   overflow-x: hidden;
 }
 
-#nelwdfruzl .gt_stub {
+#cqachoxldo .gt_stub {
   color: #FFFFFF;
   background-color: #6C82A0;
   font-size: 100%;
@@ -773,7 +774,7 @@ Datafolha se diferenciaram muito pouco da concorrência:</p>
   padding-right: 5px;
 }
 
-#nelwdfruzl .gt_stub_row_group {
+#cqachoxldo .gt_stub_row_group {
   color: #333333;
   background-color: #FFFFFF;
   font-size: 100%;
@@ -787,11 +788,11 @@ Datafolha se diferenciaram muito pouco da concorrência:</p>
   vertical-align: top;
 }
 
-#nelwdfruzl .gt_row_group_first td {
+#cqachoxldo .gt_row_group_first td {
   border-top-width: 2px;
 }
 
-#nelwdfruzl .gt_summary_row {
+#cqachoxldo .gt_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -801,16 +802,16 @@ Datafolha se diferenciaram muito pouco da concorrência:</p>
   padding-right: 5px;
 }
 
-#nelwdfruzl .gt_first_summary_row {
+#cqachoxldo .gt_first_summary_row {
   border-top-style: solid;
   border-top-color: #D3D3D3;
 }
 
-#nelwdfruzl .gt_first_summary_row.thick {
+#cqachoxldo .gt_first_summary_row.thick {
   border-top-width: 2px;
 }
 
-#nelwdfruzl .gt_last_summary_row {
+#cqachoxldo .gt_last_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -820,7 +821,7 @@ Datafolha se diferenciaram muito pouco da concorrência:</p>
   border-bottom-color: #D3D3D3;
 }
 
-#nelwdfruzl .gt_grand_summary_row {
+#cqachoxldo .gt_grand_summary_row {
   color: #333333;
   background-color: #FFFFFF;
   text-transform: inherit;
@@ -830,7 +831,7 @@ Datafolha se diferenciaram muito pouco da concorrência:</p>
   padding-right: 5px;
 }
 
-#nelwdfruzl .gt_first_grand_summary_row {
+#cqachoxldo .gt_first_grand_summary_row {
   padding-top: 8px;
   padding-bottom: 8px;
   padding-left: 5px;
@@ -840,11 +841,11 @@ Datafolha se diferenciaram muito pouco da concorrência:</p>
   border-top-color: #D3D3D3;
 }
 
-#nelwdfruzl .gt_striped {
+#cqachoxldo .gt_striped {
   background-color: rgba(128, 128, 128, 0.05);
 }
 
-#nelwdfruzl .gt_table_body {
+#cqachoxldo .gt_table_body {
   border-top-style: solid;
   border-top-width: 2px;
   border-top-color: #FFFFFF;
@@ -853,7 +854,7 @@ Datafolha se diferenciaram muito pouco da concorrência:</p>
   border-bottom-color: #FFFFFF;
 }
 
-#nelwdfruzl .gt_footnotes {
+#cqachoxldo .gt_footnotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -867,7 +868,7 @@ Datafolha se diferenciaram muito pouco da concorrência:</p>
   border-right-color: #D3D3D3;
 }
 
-#nelwdfruzl .gt_footnote {
+#cqachoxldo .gt_footnote {
   margin: 0px;
   font-size: 90%;
   padding-left: 4px;
@@ -876,7 +877,7 @@ Datafolha se diferenciaram muito pouco da concorrência:</p>
   padding-right: 5px;
 }
 
-#nelwdfruzl .gt_sourcenotes {
+#cqachoxldo .gt_sourcenotes {
   color: #333333;
   background-color: #FFFFFF;
   border-bottom-style: none;
@@ -890,7 +891,7 @@ Datafolha se diferenciaram muito pouco da concorrência:</p>
   border-right-color: #D3D3D3;
 }
 
-#nelwdfruzl .gt_sourcenote {
+#cqachoxldo .gt_sourcenote {
   font-size: 90%;
   padding-top: 4px;
   padding-bottom: 4px;
@@ -898,64 +899,64 @@ Datafolha se diferenciaram muito pouco da concorrência:</p>
   padding-right: 5px;
 }
 
-#nelwdfruzl .gt_left {
+#cqachoxldo .gt_left {
   text-align: left;
 }
 
-#nelwdfruzl .gt_center {
+#cqachoxldo .gt_center {
   text-align: center;
 }
 
-#nelwdfruzl .gt_right {
+#cqachoxldo .gt_right {
   text-align: right;
   font-variant-numeric: tabular-nums;
 }
 
-#nelwdfruzl .gt_font_normal {
+#cqachoxldo .gt_font_normal {
   font-weight: normal;
 }
 
-#nelwdfruzl .gt_font_bold {
+#cqachoxldo .gt_font_bold {
   font-weight: bold;
 }
 
-#nelwdfruzl .gt_font_italic {
+#cqachoxldo .gt_font_italic {
   font-style: italic;
 }
 
-#nelwdfruzl .gt_super {
+#cqachoxldo .gt_super {
   font-size: 65%;
 }
 
-#nelwdfruzl .gt_footnote_marks {
+#cqachoxldo .gt_footnote_marks {
   font-style: italic;
   font-weight: normal;
   font-size: 75%;
   vertical-align: 0.4em;
 }
 
-#nelwdfruzl .gt_asterisk {
+#cqachoxldo .gt_asterisk {
   font-size: 100%;
   vertical-align: 0;
 }
 
-#nelwdfruzl .gt_indent_1 {
+#cqachoxldo .gt_indent_1 {
   text-indent: 5px;
 }
 
-#nelwdfruzl .gt_indent_2 {
+#cqachoxldo .gt_indent_2 {
   text-indent: 10px;
 }
 
-#nelwdfruzl .gt_indent_3 {
+#cqachoxldo .gt_indent_3 {
   text-indent: 15px;
 }
 
-#nelwdfruzl .gt_indent_4 {
+#cqachoxldo .gt_indent_4 {
   text-indent: 20px;
 }
 
-#nelwdfruzl .gt_indent_5 {
+#cqachoxldo .gt_indent_5 {
   text-indent: 25px;
 }
 </style>
@@ -976,21 +977,21 @@ Datafolha se diferenciaram muito pouco da concorrência:</p>
   </thead>
   <tbody class="gt_table_body">
     <tr><th scope="row" class="gt_row gt_left gt_stub">Presidente Nac. 2014</th>
-<td class="gt_row gt_center" style="font-family: &#39;Fantasque Sans Mono&#39;; font-size: 15px; background-color: #F4CB1C; border-left-width: 1.5px; border-left-style: solid; border-left-color: #ffffff; border-right-width: 1.5px; border-right-style: solid; border-right-color: #ffffff;">3,36</td>
-<td class="gt_row gt_center" style="font-family: &#39;Fantasque Sans Mono&#39;; font-size: 15px; background-color: #F4CB1C; border-left-width: 1.5px; border-left-style: solid; border-left-color: #ffffff; border-right-width: 1.5px; border-right-style: solid; border-right-color: #ffffff;">2,41</td>
-<td class="gt_row gt_center" style="font-family: &#39;Fantasque Sans Mono&#39;; font-size: 15px; background-color: #F4CB1C; border-left-width: 1.5px; border-left-style: solid; border-left-color: #ffffff; border-right-width: 1.5px; border-right-style: solid; border-right-color: #ffffff;">0,95</td></tr>
+<td class="gt_row gt_center" style="font-family: &#39;Fantasque Sans Mono&#39;; font-size: 15px; background-color: #F4CB1C; border-left-width: 1.5px; border-left-style: solid; border-left-color: #ffffff; border-right-width: 1.5px; border-right-style: solid; border-right-color: #ffffff;">3,71</td>
+<td class="gt_row gt_center" style="font-family: &#39;Fantasque Sans Mono&#39;; font-size: 15px; background-color: #F4CB1C; border-left-width: 1.5px; border-left-style: solid; border-left-color: #ffffff; border-right-width: 1.5px; border-right-style: solid; border-right-color: #ffffff;">2,36</td>
+<td class="gt_row gt_center" style="font-family: &#39;Fantasque Sans Mono&#39;; font-size: 15px; background-color: #F4CB1C; border-left-width: 1.5px; border-left-style: solid; border-left-color: #ffffff; border-right-width: 1.5px; border-right-style: solid; border-right-color: #ffffff;">1,35</td></tr>
     <tr><th scope="row" class="gt_row gt_left gt_stub">Governadores 2014</th>
-<td class="gt_row gt_center" style="font-family: &#39;Fantasque Sans Mono&#39;; font-size: 15px; background-color: #F4CB1C; border-left-width: 1.5px; border-left-style: solid; border-left-color: #ffffff; border-right-width: 1.5px; border-right-style: solid; border-right-color: #ffffff;">3,12</td>
-<td class="gt_row gt_center" style="font-family: &#39;Fantasque Sans Mono&#39;; font-size: 15px; background-color: #F4CB1C; border-left-width: 1.5px; border-left-style: solid; border-left-color: #ffffff; border-right-width: 1.5px; border-right-style: solid; border-right-color: #ffffff;">2,73</td>
-<td class="gt_row gt_center" style="font-family: &#39;Fantasque Sans Mono&#39;; font-size: 15px; background-color: #F4CB1C; border-left-width: 1.5px; border-left-style: solid; border-left-color: #ffffff; border-right-width: 1.5px; border-right-style: solid; border-right-color: #ffffff;">0,39</td></tr>
+<td class="gt_row gt_center" style="font-family: &#39;Fantasque Sans Mono&#39;; font-size: 15px; background-color: #F4CB1C; border-left-width: 1.5px; border-left-style: solid; border-left-color: #ffffff; border-right-width: 1.5px; border-right-style: solid; border-right-color: #ffffff;">3,40</td>
+<td class="gt_row gt_center" style="font-family: &#39;Fantasque Sans Mono&#39;; font-size: 15px; background-color: #F4CB1C; border-left-width: 1.5px; border-left-style: solid; border-left-color: #ffffff; border-right-width: 1.5px; border-right-style: solid; border-right-color: #ffffff;">2,77</td>
+<td class="gt_row gt_center" style="font-family: &#39;Fantasque Sans Mono&#39;; font-size: 15px; background-color: #F4CB1C; border-left-width: 1.5px; border-left-style: solid; border-left-color: #ffffff; border-right-width: 1.5px; border-right-style: solid; border-right-color: #ffffff;">0,63</td></tr>
     <tr><th scope="row" class="gt_row gt_left gt_stub">Presidente Nac. 2018</th>
-<td class="gt_row gt_center" style="font-family: &#39;Fantasque Sans Mono&#39;; font-size: 15px; background-color: #F4CB1C; border-left-width: 1.5px; border-left-style: solid; border-left-color: #ffffff; border-right-width: 1.5px; border-right-style: solid; border-right-color: #ffffff;">2,49</td>
-<td class="gt_row gt_center" style="font-family: &#39;Fantasque Sans Mono&#39;; font-size: 15px; background-color: #F4CB1C; border-left-width: 1.5px; border-left-style: solid; border-left-color: #ffffff; border-right-width: 1.5px; border-right-style: solid; border-right-color: #ffffff;">2,22</td>
-<td class="gt_row gt_center" style="font-family: &#39;Fantasque Sans Mono&#39;; font-size: 15px; background-color: #F4CB1C; border-left-width: 1.5px; border-left-style: solid; border-left-color: #ffffff; border-right-width: 1.5px; border-right-style: solid; border-right-color: #ffffff;">0,27</td></tr>
+<td class="gt_row gt_center" style="font-family: &#39;Fantasque Sans Mono&#39;; font-size: 15px; background-color: #F4CB1C; border-left-width: 1.5px; border-left-style: solid; border-left-color: #ffffff; border-right-width: 1.5px; border-right-style: solid; border-right-color: #ffffff;">2,59</td>
+<td class="gt_row gt_center" style="font-family: &#39;Fantasque Sans Mono&#39;; font-size: 15px; background-color: #F4CB1C; border-left-width: 1.5px; border-left-style: solid; border-left-color: #ffffff; border-right-width: 1.5px; border-right-style: solid; border-right-color: #ffffff;">2,00</td>
+<td class="gt_row gt_center" style="font-family: &#39;Fantasque Sans Mono&#39;; font-size: 15px; background-color: #F4CB1C; border-left-width: 1.5px; border-left-style: solid; border-left-color: #ffffff; border-right-width: 1.5px; border-right-style: solid; border-right-color: #ffffff;">0,59</td></tr>
     <tr><th scope="row" class="gt_row gt_left gt_stub">Governadores 2018</th>
-<td class="gt_row gt_center" style="font-family: &#39;Fantasque Sans Mono&#39;; font-size: 15px; background-color: #F4CB1C; border-left-width: 1.5px; border-left-style: solid; border-left-color: #ffffff; border-right-width: 1.5px; border-right-style: solid; border-right-color: #ffffff;">3,67</td>
-<td class="gt_row gt_center" style="font-family: &#39;Fantasque Sans Mono&#39;; font-size: 15px; background-color: #F4CB1C; border-left-width: 1.5px; border-left-style: solid; border-left-color: #ffffff; border-right-width: 1.5px; border-right-style: solid; border-right-color: #ffffff;">3,43</td>
-<td class="gt_row gt_center" style="font-family: &#39;Fantasque Sans Mono&#39;; font-size: 15px; background-color: #F4CB1C; border-left-width: 1.5px; border-left-style: solid; border-left-color: #ffffff; border-right-width: 1.5px; border-right-style: solid; border-right-color: #ffffff;">0,24</td></tr>
+<td class="gt_row gt_center" style="font-family: &#39;Fantasque Sans Mono&#39;; font-size: 15px; background-color: #F4CB1C; border-left-width: 1.5px; border-left-style: solid; border-left-color: #ffffff; border-right-width: 1.5px; border-right-style: solid; border-right-color: #ffffff;">3,99</td>
+<td class="gt_row gt_center" style="font-family: &#39;Fantasque Sans Mono&#39;; font-size: 15px; background-color: #F4CB1C; border-left-width: 1.5px; border-left-style: solid; border-left-color: #ffffff; border-right-width: 1.5px; border-right-style: solid; border-right-color: #ffffff;">3,11</td>
+<td class="gt_row gt_center" style="font-family: &#39;Fantasque Sans Mono&#39;; font-size: 15px; background-color: #F4CB1C; border-left-width: 1.5px; border-left-style: solid; border-left-color: #ffffff; border-right-width: 1.5px; border-right-style: solid; border-right-color: #ffffff;">0,88</td></tr>
     <tr><th scope="row" class="gt_row gt_left gt_stub">Presidente Nac. 2022</th>
 <td class="gt_row gt_center" style="font-family: &#39;Fantasque Sans Mono&#39;; font-size: 15px; background-color: #F4CB1C; border-left-width: 1.5px; border-left-style: solid; border-left-color: #ffffff; border-right-width: 1.5px; border-right-style: solid; border-right-color: #ffffff;">2,56</td>
 <td class="gt_row gt_center" style="font-family: &#39;Fantasque Sans Mono&#39;; font-size: 15px; background-color: #F4CB1C; border-left-width: 1.5px; border-left-style: solid; border-left-color: #ffffff; border-right-width: 1.5px; border-right-style: solid; border-right-color: #ffffff;">2,37</td>
@@ -1008,6 +1009,7 @@ Datafolha se diferenciaram muito pouco da concorrência:</p>
   
 </table>
 </div>
+
 <p>Novamente, não se trata de defender que veículos de imprensa deixem
 de contratar e divulgar pesquisas desses dois institutos. Mas não há
 razão, além de conservadorismo, para que esses dois institutos continuem
