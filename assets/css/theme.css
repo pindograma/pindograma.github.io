@@ -231,6 +231,10 @@ header hr {
   color: #6e787f;
 }
 
+.main-menu {
+  height: 140px;
+}
+
 .main-menu a {
   background-color: #d27103;
   color: white !important;
