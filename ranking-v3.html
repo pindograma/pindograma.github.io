@@ -6,7 +6,7 @@ title: Ranking de Institutos de Pesquisa
 <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.21/css/jquery.dataTables.css">
 <script src ="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.21/js/jquery.dataTables.js"></script>
-<script src="/assets/ranking_data_4.js"></script>
+<script src="/assets/ranking_data_3.js"></script>
 
 <style>
 #table_id {
@@ -38,25 +38,27 @@ td {
 <div class="container-md">
   <div class="row px-5">
     <div class="article-text">
-      <p>A tabela abaixo é o <b>Ranking de Institutos de Pesquisa do
-        Pindograma</b>.</p>
+      <p>A tabela abaixo é o <b>Ranking de Institutos de Pesquisa do Pindograma</b>.
+      Como <a href="/2020/09/07/explicacao-pesquisas.html">já explicamos</a>,
+      pesquisas eleitorais não são previsões mágicas, nem loterias arbitrárias.
+      Para interpretar adequadamente o resultado de uma pesquisa, são
+      necessárias várias informações, entre as quais o desempenho passado do
+      instituto que a produziu.</p>
 
-      <p>Já que nem todo mundo tem tempo de analisar o histórico de desempenho
-      de centenas de empresas de pesquisa no Brasil, fizemos isto por você e
-      condensamos os resultados nesta lista. Dela, excluímos apenas os
-      institutos com menos de cinco pesquisas publicadas no período de análise.
-      (Para uma explicação detalhada de como este Ranking foi calculado, <a
-      href="/2020/09/07/ranking.html">veja este artigo</a> e <a
-    href="/2022/06/24/rankingat.html">este artigo</a>).</p>
+      <p>Já que nem todo mundo tem tempo de analisar o histórico de centenas de
+      empresas de pesquisa no Brasil, fizemos isto por você e condensamos os
+      resultados nesta lista. Dela, excluímos apenas os institutos com menos de
+      cinco pesquisas publicadas no período de análise. (Para uma explicação
+      detalhada de como este Ranking foi calculado,
+      <a href="/2020/09/07/ranking.html">veja este artigo</a> e
+      <a href="/2022/06/24/rankingat.html">este artigo</a>).</p>
 
       <p>Com o Ranking, esperamos que nossos leitores e leitoras façam
-      julgamentos mais informados sobre as pesquisas eleitorais no Brasil.
-      Enfatizamos, contudo, que <i>o desempenho passado dos institutos não é,
-      necessariamente, um bom preditor de desempenho futuro</i>.</p>
+      julgamentos mais informados sobre as pesquisas eleitorais no Brasil.</p>
 
-      <p>Este ranking foi atualizado em 24 de setembro de 2024, e foi 
-      calculado com base em pesquisas <b>entre 2012 e 2022</b>. Para acessar a
-      versão anterior do Ranking, <a href="/ranking-v3.html">clique aqui</a>.
+      <p>Este ranking foi atualizado em 24 de junho de 2022, e foi 
+      calculado com base em pesquisas <b>entre 2012 e 2020</b>. Para acessar a
+      versão anterior do Ranking, <a href="/ranking-v2.html">clique aqui</a>.
     </div>
   </div>
 
@@ -149,7 +151,7 @@ $(document).ready( function () {
       { "data": "pretty_name" },
       { "data": "avg", render: $.fn.dataTable.render.number('.', ',', 2) },
       { "data": "n" },
-      { "data": "pred_pm_adj", render: $.fn.dataTable.render.number('.', ',', 2) },
+      { "data": "pred_pm", render: $.fn.dataTable.render.number('.', ',', 2) },
       { "data": "grade", type: 'grade' }
     ],
     columnDefs: [
