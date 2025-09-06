@@ -7,3 +7,4 @@ vendor
 *.code-workspace
 .history
 .vscode
+*.swp
