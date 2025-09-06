@@ -778,6 +778,10 @@ body .article-text {
   display: 72px;
 }
 
+body .article-text hr {
+  width: 100%;
+}
+
 body .article-text-maxw {
   max-width: 575px;
 }
@@ -982,3 +986,5 @@ section .index-mobile .read-too {
 .header-buttons-mt {
   margin-top: -2px;
 }
+
+
