@@ -318,6 +318,7 @@ body .favorite-undertitle {
   font-size: 15px;
   font-family: 'Fantasque Sans Mono';
   font-weight: normal;
+  margin-bottom: 0;
 }
 
 .mobile-author-name {

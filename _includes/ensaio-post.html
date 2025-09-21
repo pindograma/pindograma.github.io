@@ -1,0 +1,8 @@
+{% assign short_title_f = include.title | split: ' ' | slice: 1, 99 | join: ' ' %}
+{% assign author_name_f = site.authors | where: 'short_name', include.author | first  %}
+
+<a href={{ include.url }} style="text-decoration: none; color: #6e787f;">
+  <p class="favorite-title mb-0">{{ short_title_f }}</p>
+  <p class="favorite-undertitle">por {{ author_name_f.name }}</p>
+  <p class="underauthor"><small>{{ include.subtitle }}</small></p>
+</a>

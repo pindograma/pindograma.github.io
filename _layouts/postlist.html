@@ -2,6 +2,8 @@
 layout: default
 ---
 
+{% include collecttags.html %}
+
 {% assign main_post = site.posts | where: 'refid', site.data.metadata.main_post | first %}
 {% assign secondary_post = site.posts | where: 'refid', site.data.metadata.secondary_post | first %}
 
@@ -64,32 +66,11 @@ layout: default
           <div class="col-md-6 col-lg-12 mx-2 pt-4">
             <div class="card m-0 p-0 gr-card">
               <div class="d-flex card-body p-2 text-decoration-none gr-container ">
-                <p class="underauthor green px-2 graph-heading-green">nossas recomendações</p>
-                
-                <a href="/2020/09/07/pesquisas-falsas.html" style="text-decoration: none; color: #6e787f;">
-                  <p class="favorite-title mb-0">A fábrica de pesquisas falsas</p>
-                  <p class="favorite-undertitle">por Oscar Neto</p>
-                </a>
+                <p class="underauthor green px-2 graph-heading-green">Ensaios Pindograma</p>
 
-                <a href="/2020/11/15/votoclasse.html" style="text-decoration: none; color: #6e787f;">
-                  <p class="favorite-title mb-0">Voto de classe é a regra nas maiores cidades brasileiras</p>
-                  <p class="favorite-undertitle">por Daniel Ferreira e Francisco Ricci</p>
-                </a>
-                
-                <a href="/2020/10/02/jovens.html" style="text-decoration: none; color: #6e787f;">
-                  <p class="favorite-title mb-0">Apáticos ou engajados? O que dizem os dados sobre jovens e a política</p>
-                  <p class="favorite-undertitle">por João Gado F. Costa</p>
-                </a>
-                
-                <a href="/2020/10/09/indicadores-edu.html" style="text-decoration: none; color: #6e787f;">
-                  <p class="favorite-title mb-0">Como não ser enganado por um indicador de gastos em educação</p>
-                  <p class="favorite-undertitle">por Antonio Piltcher</p>
-                </a>
-                
-                <a href="/2020/11/12/reeleicao.html" style="text-decoration: none; color: #6e787f;">
-                  <p class="favorite-title mb-0">O que ajuda um prefeito a se reeleger?</p>
-                  <p class="favorite-undertitle">por Pedro Siemsen</p>
-                </a>
+                {% for post in site.tags['ensaios'] limit:4 %}
+                  {% include ensaio-post.html url=post.url title=post.title subtitle=post.subtitle author=post.author %}
+                {% endfor %}
               </div>
             </div>
           </div>
@@ -112,32 +93,11 @@ layout: default
           <div class="w-100">
             <div class="col-12 card m-0 p-0">
               <div class="d-block card-body p-2 text-decoration-none">
-                <p class="underauthor green px-2 graph-heading-green">nossas recomendações</p>
+                <p class="underauthor green px-2 graph-heading-green">Ensaios Pindograma</p>
 
-                <a href="/2020/09/07/pesquisas-falsas.html" style="text-decoration: none; color: #6e787f;">
-                  <p class="favorite-title mb-0">A fábrica de pesquisas falsas</p>
-                  <p class="favorite-undertitle">por Oscar Neto</p>
-                </a>
-
-                <a href="/2020/11/15/votoclasse.html" style="text-decoration: none; color: #6e787f;">
-                  <p class="favorite-title mb-0">Voto de classe é a regra nas maiores cidades brasileiras</p>
-                  <p class="favorite-undertitle">por Daniel Ferreira e Francisco Ricci</p>
-                </a>
-                
-                <a href="/2020/10/02/jovens.html" style="text-decoration: none; color: #6e787f;">
-                  <p class="favorite-title mb-0">Apáticos ou engajados? O que dizem os dados sobre jovens e a política</p>
-                  <p class="favorite-undertitle">por João Gado F. Costa</p>
-                </a>
-                
-                <a href="/2020/10/09/indicadores-edu.html" style="text-decoration: none; color: #6e787f;">
-                  <p class="favorite-title mb-0">Como não ser enganado por um indicador de gastos em educação</p>
-                  <p class="favorite-undertitle">por Antonio Piltcher</p>
-                </a>
-                
-                <a href="/2020/11/12/reeleicao.html" style="text-decoration: none; color: #6e787f;">
-                  <p class="favorite-title mb-0">O que ajuda um prefeito a se reeleger?</p>
-                  <p class="favorite-undertitle">por Pedro Siemsen</p>
-                </a>
+                {% for post in site.tags['ensaios'] limit:4 %}
+                  {% include ensaio-post.html url=post.url title=post.title subtitle=post.subtitle author=post.author %}
+                {% endfor %}
               </div>
             </div>
 
