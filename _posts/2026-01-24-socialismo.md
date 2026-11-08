@@ -1,13 +1,13 @@
 ---
 layout: post
-title: "Ensaio: Enquanto houver mercado, não haverá liberdade"
+title: "Ensaio: Reflexões sobre o mercado e a liberdade"
 subtitle: "Como visão de Brasil, uma alternativa socialista à economia de mercado e ao planejamento central"
 description: "Como visão de Brasil, uma alternativa socialista à economia de mercado e ao planejamento central"
 author: daniel
 image: /assets/post_images/suplicy.jpg
 date: 2026-01-24
 refid: socialismo
-tags: ensaios
+tags: politica
 seo:
   type: NewsArticle
 ---
